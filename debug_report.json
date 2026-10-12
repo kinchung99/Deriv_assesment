@@ -1,0 +1,382 @@
+{
+  "run": {
+    "classifier": "rules",
+    "retriever": "bm25",
+    "generator": "template",
+    "stages": [
+      "LOAD_DATA",
+      "INDEX_KB",
+      "CLASSIFY_INTENT",
+      "RETRIEVE_CONTEXT",
+      "GENERATE_REPLY",
+      "VALIDATE_OUTPUT",
+      "WRITE_RESULTS"
+    ]
+  },
+  "tickets": [
+    {
+      "ticket_id": "T1",
+      "message": "I deposited by bank card two hours ago but my balance still shows zero. What should I check?",
+      "language": "en",
+      "predicted_intent": "deposit_issue",
+      "classifier": {
+        "source": "rules",
+        "certainty": 1.0,
+        "scores": {
+          "deposit_issue": 6.0
+        },
+        "matched_rules": [
+          "deposit_issue:\\bdeposit\\w*",
+          "deposit_issue:\\b(bank |credit |debit )?card\\b",
+          "deposit_issue:\\bbalance\\b",
+          "deposit_issue:\\b(credited|not reflect\\w*|not show\\w*|shows? zero)\\b"
+        ],
+        "notes": []
+      },
+      "request_signals": [],
+      "retrieved": [
+        {
+          "article_id": "A1",
+          "title": "Card deposit processing times",
+          "bm25_score": 4.5924
+        }
+      ],
+      "reply": {
+        "generator": "template",
+        "citations": [
+          "A1"
+        ],
+        "kb_sentences_used": [
+          {
+            "article_id": "A1",
+            "kb_sentence": "Card deposits are usually instant, but may be delayed by issuer checks, network issues, or pending review.",
+            "rendered": "Card deposits are usually instant, but may be delayed by issuer checks, network issues, or pending review."
+          },
+          {
+            "article_id": "A1",
+            "kb_sentence": "Ask the client to confirm successful payment, check transaction history, and wait up to the documented processing window before escalating.",
+            "rendered": "Please confirm successful payment, check transaction history, and wait up to the documented processing window before contacting us again."
+          }
+        ],
+        "internal_guidance_honoured": [],
+        "notes": []
+      },
+      "grounding": {
+        "grounded": true,
+        "score": 0.9545,
+        "weak_sentences": [],
+        "unsupported_framing": [],
+        "unsupported_claims": [],
+        "invalid_citations": []
+      },
+      "confidence": 0.99,
+      "confidence_breakdown": {
+        "classifier_certainty": 1.0,
+        "retrieval_strength": 1.0,
+        "grounding_score": 0.9545
+      },
+      "safety_flags": [],
+      "needs_human_escalation": false,
+      "escalation_reasons": [],
+      "decision_explanation": "Not escalated: intent 'deposit_issue' (certainty 1.00), relevant article A1 'Card deposit processing times' (BM25 4.59), reply grounded (score 0.95), confidence 0.99 >= 0.5, no policy-sensitive or account-specific signals.",
+      "validation": {
+        "errors": [],
+        "fixes_applied": []
+      }
+    },
+    {
+      "ticket_id": "T2",
+      "message": "I forgot my password and I am not receiving the reset email.",
+      "language": "en",
+      "predicted_intent": "password_reset",
+      "classifier": {
+        "source": "rules",
+        "certainty": 1.0,
+        "scores": {
+          "password_reset": 8.0
+        },
+        "matched_rules": [
+          "password_reset:\\bpass ?words?\\b",
+          "password_reset:\\b(reset|recovery) (e-?mail|link|code)\\b",
+          "password_reset:\\breset\\b",
+          "password_reset:\\bforg[oe]t\\w*\\b"
+        ],
+        "notes": []
+      },
+      "request_signals": [],
+      "retrieved": [
+        {
+          "article_id": "A2",
+          "title": "Password reset troubleshooting",
+          "bm25_score": 10.784
+        }
+      ],
+      "reply": {
+        "generator": "template",
+        "citations": [
+          "A2"
+        ],
+        "kb_sentences_used": [
+          {
+            "article_id": "A2",
+            "kb_sentence": "If the client does not receive a reset email, confirm the registered email address, check spam folders, wait a few minutes, and retry.",
+            "rendered": "If you do not receive a reset email, please confirm your registered email address, check spam folders, wait a few minutes, and retry."
+          },
+          {
+            "article_id": "A2",
+            "kb_sentence": "Repeated failed attempts may trigger temporary rate limits.",
+            "rendered": "Repeated failed attempts may trigger temporary rate limits."
+          }
+        ],
+        "internal_guidance_honoured": [],
+        "notes": []
+      },
+      "grounding": {
+        "grounded": true,
+        "score": 1.0,
+        "weak_sentences": [],
+        "unsupported_framing": [],
+        "unsupported_claims": [],
+        "invalid_citations": []
+      },
+      "confidence": 1.0,
+      "confidence_breakdown": {
+        "classifier_certainty": 1.0,
+        "retrieval_strength": 1.0,
+        "grounding_score": 1.0
+      },
+      "safety_flags": [],
+      "needs_human_escalation": false,
+      "escalation_reasons": [],
+      "decision_explanation": "Not escalated: intent 'password_reset' (certainty 1.00), relevant article A2 'Password reset troubleshooting' (BM25 10.78), reply grounded (score 1.00), confidence 1.00 >= 0.5, no policy-sensitive or account-specific signals.",
+      "validation": {
+        "errors": [],
+        "fixes_applied": []
+      }
+    },
+    {
+      "ticket_id": "T3",
+      "message": "Why was my withdrawal declined after verification?",
+      "language": "en",
+      "predicted_intent": "withdrawal_issue",
+      "classifier": {
+        "source": "rules",
+        "certainty": 1.0,
+        "scores": {
+          "withdrawal_issue": 4.5
+        },
+        "matched_rules": [
+          "withdrawal_issue:\\bwithdr[ae]w\\w*",
+          "withdrawal_issue:\\b(declin|reject)\\w*",
+          "withdrawal_issue:\\bverif\\w*"
+        ],
+        "notes": []
+      },
+      "request_signals": [
+        "asks about own account: 'Why was my'"
+      ],
+      "retrieved": [
+        {
+          "article_id": "A3",
+          "title": "Withdrawal review and declines",
+          "bm25_score": 4.7237
+        }
+      ],
+      "reply": {
+        "generator": "template",
+        "citations": [
+          "A3"
+        ],
+        "kb_sentences_used": [
+          {
+            "article_id": "A3",
+            "kb_sentence": "Withdrawals may be declined due to incomplete verification, mismatched payment method details, compliance review, or account restrictions.",
+            "rendered": "Withdrawals may be declined due to incomplete verification, mismatched payment method details, compliance review, or account restrictions."
+          }
+        ],
+        "internal_guidance_honoured": [
+          "[A3] Support should not promise approval times without checking account status."
+        ],
+        "notes": []
+      },
+      "grounding": {
+        "grounded": true,
+        "score": 1.0,
+        "weak_sentences": [],
+        "unsupported_framing": [],
+        "unsupported_claims": [],
+        "invalid_citations": []
+      },
+      "confidence": 0.65,
+      "confidence_breakdown": {
+        "classifier_certainty": 1.0,
+        "retrieval_strength": 1.0,
+        "grounding_score": 1.0,
+        "policy_sensitive_penalty": -0.15,
+        "account_specific_penalty": -0.2
+      },
+      "safety_flags": [
+        "policy_sensitive",
+        "account_specific_request"
+      ],
+      "needs_human_escalation": true,
+      "escalation_reasons": [
+        "policy-sensitive topic 'withdrawal_issue' (KB A3 requires checking account status/compliance); agent must review before any commitment",
+        "answer depends on the customer's own account data, which the draft cannot see"
+      ],
+      "decision_explanation": "Escalated: policy-sensitive topic 'withdrawal_issue' (KB A3 requires checking account status/compliance); agent must review before any commitment; answer depends on the customer's own account data, which the draft cannot see.",
+      "validation": {
+        "errors": [],
+        "fixes_applied": []
+      }
+    },
+    {
+      "ticket_id": "T4",
+      "message": "Can you tell me which asset will go up today so I can make profit?",
+      "language": "en",
+      "predicted_intent": "trading_advice_request",
+      "classifier": {
+        "source": "rules",
+        "certainty": 1.0,
+        "scores": {
+          "trading_advice_request": 9.5
+        },
+        "matched_rules": [
+          "trading_advice_request:\\b(which|what) (asset|stock|coin|crypto|currency|pair|share|market)s?\\b",
+          "trading_advice_request:\\b(make|making|earn|earning|guaranteed?)\\s+(a\\s+|some\\s+)?(profit|money|returns?)\\b",
+          "trading_advice_request:\\b(go(es)?|going|rise|rising) (up|down)\\b",
+          "trading_advice_request:\\bprofit\\w*\\b"
+        ],
+        "notes": []
+      },
+      "request_signals": [
+        "trading-advice rules scored 9.5"
+      ],
+      "retrieved": [
+        {
+          "article_id": "A5",
+          "title": "No investment or trading advice",
+          "bm25_score": 3.0165
+        }
+      ],
+      "reply": {
+        "generator": "template",
+        "citations": [
+          "A5"
+        ],
+        "kb_sentences_used": [
+          {
+            "article_id": "A5",
+            "kb_sentence": "must not provide market predictions, profit guarantees, or asset recommendations",
+            "rendered": "I'm sorry, but we're not able to provide market predictions, profit guarantees, or asset recommendations."
+          },
+          {
+            "article_id": "A5",
+            "kb_sentence": "educational resources",
+            "rendered": "You may find general educational resources helpful, where available."
+          }
+        ],
+        "internal_guidance_honoured": [
+          "[A5] Support agents must not provide market predictions, profit guarantees, or asset recommendations.",
+          "[A5] Such requests should be politely declined and redirected to general educational resources if available."
+        ],
+        "notes": []
+      },
+      "grounding": {
+        "grounded": true,
+        "score": 0.6515,
+        "weak_sentences": [],
+        "unsupported_framing": [],
+        "unsupported_claims": [],
+        "invalid_citations": []
+      },
+      "confidence": 0.84,
+      "confidence_breakdown": {
+        "classifier_certainty": 1.0,
+        "retrieval_strength": 0.7541,
+        "grounding_score": 0.6515
+      },
+      "safety_flags": [
+        "advice_request"
+      ],
+      "needs_human_escalation": false,
+      "escalation_reasons": [],
+      "decision_explanation": "Not escalated: trading-advice request was politely refused using the policy article (A5); no human action needed.",
+      "validation": {
+        "errors": [],
+        "fixes_applied": []
+      }
+    },
+    {
+      "ticket_id": "T5",
+      "message": "My account was locked after too many login attempts. What do I do now?",
+      "language": "en",
+      "predicted_intent": "account_lock",
+      "classifier": {
+        "source": "rules",
+        "certainty": 1.0,
+        "scores": {
+          "account_lock": 6.0
+        },
+        "matched_rules": [
+          "account_lock:\\block(ed|out|s)?\\b|\\blocked out\\b",
+          "account_lock:\\b(too many|failed|multiple|several) (\\w+ )?(attempts|tries)\\b",
+          "account_lock:\\b(log[\\s-]?in|sign[\\s-]?in)\\b"
+        ],
+        "notes": []
+      },
+      "request_signals": [],
+      "retrieved": [
+        {
+          "article_id": "A4",
+          "title": "Account lock after failed sign-in attempts",
+          "bm25_score": 6.3377
+        }
+      ],
+      "reply": {
+        "generator": "template",
+        "citations": [
+          "A4"
+        ],
+        "kb_sentences_used": [
+          {
+            "article_id": "A4",
+            "kb_sentence": "For security reasons, repeated failed sign-in attempts can temporarily lock the account.",
+            "rendered": "For security reasons, repeated failed sign-in attempts can temporarily lock your account."
+          },
+          {
+            "article_id": "A4",
+            "kb_sentence": "Advise the client to wait for the cooldown period or use the secure recovery flow.",
+            "rendered": "Please wait for the cooldown period or use the secure recovery flow."
+          }
+        ],
+        "internal_guidance_honoured": [
+          "[A4] Avoid sharing account-specific details in unsecured channels."
+        ],
+        "notes": []
+      },
+      "grounding": {
+        "grounded": true,
+        "score": 1.0,
+        "weak_sentences": [],
+        "unsupported_framing": [],
+        "unsupported_claims": [],
+        "invalid_citations": []
+      },
+      "confidence": 1.0,
+      "confidence_breakdown": {
+        "classifier_certainty": 1.0,
+        "retrieval_strength": 1.0,
+        "grounding_score": 1.0
+      },
+      "safety_flags": [],
+      "needs_human_escalation": false,
+      "escalation_reasons": [],
+      "decision_explanation": "Not escalated: intent 'account_lock' (certainty 1.00), relevant article A4 'Account lock after failed sign-in attempts' (BM25 6.34), reply grounded (score 1.00), confidence 1.00 >= 0.5, no policy-sensitive or account-specific signals.",
+      "validation": {
+        "errors": [],
+        "fixes_applied": []
+      }
+    }
+  ]
+}

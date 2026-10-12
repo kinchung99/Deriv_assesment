@@ -1,0 +1,4 @@
+# Optional: only needed for the Claude-backed components (--classifier llm / --generator llm)
+# and for running tests with pytest. The default pipeline uses the standard library only.
+anthropic
+pytest
