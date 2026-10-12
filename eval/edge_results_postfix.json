@@ -1,0 +1,257 @@
+{
+ "counts": {
+  "OK": 17,
+  "FINDING": 10,
+  "CRASH": 4
+ },
+ "probes": [
+  {
+   "id": "I01",
+   "area": "input",
+   "probe": "ticket missing 'message'",
+   "status": "OK",
+   "detail": "exit 2 in 0.04s; stderr: error: Ticket #0 must be an object with 'id' and 'message'",
+   "repro": "python3 main.py -q --tickets no_message.json --out-dir /tmp/out   # no_message.json = [{\"id\": \"X1\", \"language\": \"en\"}]"
+  },
+  {
+   "id": "I02",
+   "area": "input",
+   "probe": "ticket missing 'id'",
+   "status": "OK",
+   "detail": "exit 2 in 0.04s; stderr: error: Ticket #0 must be an object with 'id' and 'message'",
+   "repro": "python3 main.py -q --tickets no_id.json --out-dir /tmp/out   # no_id.json = [{\"message\": \"hi\"}]"
+  },
+  {
+   "id": "I03",
+   "area": "input",
+   "probe": "duplicate ids, incl. 'T1' vs ' T1 ' and 1 vs '1'",
+   "status": "OK",
+   "detail": "rejected with exit 2: [True, True, True]",
+   "repro": "python3 main.py --tickets dup*.json"
+  },
+  {
+   "id": "I04",
+   "area": "input",
+   "probe": "non-list JSON (object) / scalar / invalid JSON / missing file / empty file",
+   "status": "OK",
+   "detail": "obj.json: exit 2; scalar.json: exit 2; bad.json: exit 2; empty.json: exit 2; missing: exit 2",
+   "repro": "python3 main.py --tickets obj.json|scalar.json|bad.json|empty.json"
+  },
+  {
+   "id": "I05",
+   "area": "input",
+   "probe": "null / numeric / list / dict message",
+   "status": "FINDING",
+   "detail": "accepted (no type check): [('N1', 'other', ['low_confidence', 'empty_message']), ('N2', 'other', ['insufficient_grounding', 'low_confidence']), ('N3', 'deposit_issue', []), ('N4', 'deposit_issue', [])]",
+   "repro": "python3 main.py -q --tickets odd_messages.json --out-dir /tmp/out   # odd_messages.json = [{\"id\": \"N1\", \"message\": null}, {\"id\": \"N2\", \"message\": 12345}, {\"id\": \"N3\", \"message\": [\"deposit\", \"missing\"]}, {\"id\": \"N4\", \"message\": {\"text\": \"my deposit is"
+  },
+  {
+   "id": "I06",
+   "area": "input",
+   "probe": "non-string ids: int, bool, float, null",
+   "status": "OK",
+   "detail": "ids coerced to ['5', 'True', '1.0']; null id -> exit 2 in 0.04s; stderr: error: Ticket #0 has an empty id",
+   "repro": "python3 main.py -q --tickets ids.json --out-dir /tmp/out   # ids.json = [{\"id\": 5, \"message\": \"I forgot my password\"}, {\"id\": true, \"message\": \"x\"}, {\"id\": 1.0, \"message\": \"y\"}]"
+  },
+  {
+   "id": "I07",
+   "area": "input",
+   "probe": "language variants: null, 'EN', 'en-US', 'en_GB', 'english', 5, missing",
+   "status": "FINDING",
+   "detail": "escalated (unsupported_language) per language value: {'None': False, 'EN': False, 'en-US': True, 'en_GB': True, 'english': True, '5': True, 'MISSING': False}",
+   "repro": "python3 main.py -q --tickets langs.json --out-dir /tmp/out   # langs.json = [{\"id\": \"L0\", \"message\": \"I forgot my password and the reset email never came\", \"language\": null}, {\"id\": \"L1\", \"message\": \"I forgot my password and the reset e"
+  },
+  {
+   "id": "I08",
+   "area": "input",
+   "probe": "array element is a string / nested array",
+   "status": "OK",
+   "detail": "exit 2 in 0.04s; stderr: error: Ticket #0 must be an object with 'id' and 'message'",
+   "repro": "python3 main.py -q --tickets elem.json --out-dir /tmp/out   # elem.json = [\"just a string\"]"
+  },
+  {
+   "id": "I09",
+   "area": "input",
+   "probe": "empty ticket list []",
+   "status": "OK",
+   "detail": "exit 0 in 0.04s; stderr: -; results.json=[]; validate.py exit 0: ALL CHECKS PASSED",
+   "repro": "python3 main.py -q --tickets empty_list.json --out-dir /tmp/out   # empty_list.json = []"
+  },
+  {
+   "id": "I10",
+   "area": "input",
+   "probe": "UTF-8 file with BOM (e.g. saved by Windows Notepad)",
+   "status": "FINDING",
+   "detail": "exit 2 in 0.04s; stderr: error: /var/folders/vp/t64tf5650y5cc9w3mpdf_7mr0000gn/T/support_ai_edge_sj1wkmvh/bom.json is not valid JSON: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0) (valid tickets rejected)",
+   "repro": "printf '\\xef\\xbb\\xbf' > bom.json; cat tickets.json >> bom.json; python3 main.py --tickets bom.json"
+  },
+  {
+   "id": "I11",
+   "area": "input",
+   "probe": "Latin-1 encoded file (non-UTF-8 bytes)",
+   "status": "CRASH",
+   "detail": "exit 1 in 0.04s; stderr: UnicodeDecodeError: 'utf-8' codec can't decode byte 0xe9 in position 31: invalid continuation byte",
+   "repro": "python3 -c \"open('l1.json','wb').write('[{\\\"id\\\":\\\"X\\\",\\\"message\\\":\\\"d\\u00e9p\\u00f4t\\\"}]'.encode('latin-1'))\"; python3 main.py --tickets l1.json"
+  },
+  {
+   "id": "I12",
+   "area": "input",
+   "probe": "deeply nested JSON (100k levels)",
+   "status": "CRASH",
+   "detail": "exit 1 in 0.04s; stderr: RecursionError: maximum recursion depth exceeded while decoding a JSON array from a unicode string",
+   "repro": "python3 -c \"open('deep.json','w').write('['*100000+']'*100000)\"; python3 main.py --tickets deep.json"
+  },
+  {
+   "id": "I13",
+   "area": "input",
+   "probe": "lone UTF-16 surrogate in message (JSON escape \\ud800)",
+   "status": "CRASH",
+   "detail": "exit 1 in 0.04s; stderr: UnicodeEncodeError: 'utf-8' codec can't encode character '\\ud800' in position 355: surrogates not allowed",
+   "repro": "echo '[{\"id\":\"S1\",\"message\":\"my deposit \\ud800 is missing\"}]' > s.json; python3 main.py --tickets s.json --out-dir /tmp/o"
+  },
+  {
+   "id": "I14",
+   "area": "input",
+   "probe": "lone surrogate in ticket id",
+   "status": "CRASH",
+   "detail": "exit 1 in 0.04s; stderr: UnicodeEncodeError: 'utf-8' codec can't encode character '\\udfff' in position 25: surrogates not allowed",
+   "repro": "echo '[{\"id\":\"S\\udfff\",\"message\":\"I forgot my password\"}]' > s.json; python3 main.py --tickets s.json --out-dir /tmp/o"
+  },
+  {
+   "id": "I15",
+   "area": "input",
+   "probe": "NUL, zero-width, NBSP, RTL and emoji-only messages",
+   "status": "FINDING",
+   "detail": "U2 zero-width-only flagged empty_message=False (flags ['insufficient_grounding', 'low_confidence']); NBSP-only flags ['low_confidence', 'empty_message']; NUL msg intent deposit_issue",
+   "repro": "python3 main.py -q --tickets unicode.json --out-dir /tmp/out   # unicode.json = [{\"id\": \"U1\", \"message\": \"deposit\\u0000missing\"}, {\"id\": \"U2\", \"message\": \"\\u200b\\u200b\\u200b\"}, {\"id\": \"U3\", \"message\": \"\\u00a0\\u00a0\"}, {\"id\": \"U4\", \"message\""
+  },
+  {
+   "id": "I16",
+   "area": "input",
+   "probe": "markdown/HTML in ticket id breaks debug_report.md table",
+   "status": "FINDING",
+   "detail": "table row has 8 pipes (7 expected): | A|B<script>x</script> | password_reset | A2 Password reset troubleshooting | 1.0 | no | ",
+   "repro": "python3 main.py -q --tickets md_id.json --out-dir /tmp/out   # md_id.json = [{\"id\": \"A|B<script>x</script>\", \"message\": \"I forgot my password\"}]"
+  },
+  {
+   "id": "I17",
+   "area": "input",
+   "probe": "very long ticket id (10k chars) and 100 KB benign message",
+   "status": "OK",
+   "detail": "exit 0 in 0.09s; stderr: -",
+   "repro": "python3 main.py -q --tickets long.json --out-dir /tmp/out   # long.json = [{\"id\": \"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  },
+  {
+   "id": "S01",
+   "area": "scale",
+   "probe": "1,000 and 10,000 ticket rows (wall time incl. writing outputs)",
+   "status": "OK",
+   "detail": "(exit, seconds, debug_report.json bytes): {1000: (0, 0.49, 2242675), 10000: (0, 4.56, 22424050)}",
+   "repro": "python3 main.py -q --tickets rows1000.json --out-dir /tmp/o"
+  },
+  {
+   "id": "S02",
+   "area": "scale",
+   "probe": "ReDoS: 3.2 KB ticket 'when my when my ...' (account-specific regex)",
+   "status": "FINDING",
+   "detail": "exit 0, 2.62s for ONE 3,200-char ticket (cubic: 6.4 KB ~21 s, 12.8 KB ~170 s)",
+   "repro": "python3 -c \"import json;json.dump([{'id':'R1','message':'when my '*400}],open('r.json','w'))\"; time python3 main.py -q --tickets r.json --out-dir /tmp/o"
+  },
+  {
+   "id": "K01",
+   "area": "kb",
+   "probe": "KB with an extra relevant article A6 + validate.py --kb",
+   "status": "OK",
+   "detail": "W1 -> ['A6', 'A3'] esc=True; validate.py exit 0: ALL CHECKS PASSED",
+   "repro": "python3 main.py --kb kb_a6.json --tickets t.json --out-dir /tmp/o && python3 validate.py --kb kb_a6.json --tickets t.json --out-dir /tmp/o"
+  },
+  {
+   "id": "K02",
+   "area": "kb",
+   "probe": "KB article with empty body / empty article_id / id with space",
+   "status": "FINDING",
+   "detail": "empty article_id accepted by loader; results: Q1 arts=[''] grounded=False reply='Thanks for reaching out about your deposit. Deposit limits apply per day []. If the issue '; Q2 arts=['A 8'] grounded=False reply='Thanks for reaching out about your deposit. Deposits are accepted in USD and EUR [A 8]. If'",
+   "repro": "kb_weird.json = kb_articles.json + {'article_id':'', ...} + {'article_id':'A 8', ...}"
+  },
+  {
+   "id": "K03",
+   "area": "kb",
+   "probe": "empty KB [] and non-list KB",
+   "status": "OK",
+   "detail": "empty -> exit 2 (error: Knowledge base is empty); object -> exit 2",
+   "repro": ""
+  },
+  {
+   "id": "K04",
+   "area": "kb",
+   "probe": "KB without the A5 trading policy article",
+   "status": "OK",
+   "detail": "T4 refused=True escalated=True flags=['advice_request', 'insufficient_grounding', 'low_confidence']",
+   "repro": ""
+  },
+  {
+   "id": "K05",
+   "area": "kb",
+   "probe": "KB article that itself contains a promise ('guaranteed within 24 hours')",
+   "status": "FINDING",
+   "detail": "promise copied into reply=True; flags=['policy_sensitive', 'account_specific_request'] esc=True (by design KB-backed claims are allowed; the reply then contradicts the agent-review closer)",
+   "repro": ""
+  },
+  {
+   "id": "L01",
+   "area": "cli",
+   "probe": "--generator llm / --classifier llm without API key",
+   "status": "OK",
+   "detail": "(exit, results.json identical to offline): {'--generator llm': (0, True), '--classifier llm': (0, True), '--classifier llm --generator llm': (0, True)}",
+   "repro": "env -u ANTHROPIC_API_KEY python3 main.py --classifier llm --generator llm --out-dir /tmp/o"
+  },
+  {
+   "id": "L02",
+   "area": "cli",
+   "probe": "bogus ANTHROPIC_API_KEY with SDK not installed (Python 3.9)",
+   "status": "OK",
+   "detail": "exit 0; stderr: WARNING support_ai.llm_client: anthropic SDK not installed (pip install -r requirements-optional.txt); using offline components | WARNING support_ai.llm_client: anthropic SDK not installed (pip install -r requirements-optional.txt); using offline components",
+   "repro": "ANTHROPIC_API_KEY=sk-bogus python3 main.py --classifier llm --generator llm"
+  },
+  {
+   "id": "L03",
+   "area": "cli",
+   "probe": "unknown --classifier / --out-dir pointing at an existing file / unwritable dir",
+   "status": "FINDING",
+   "detail": "{'--classifier foo': 2, '--out-dir <file>': (1, True), '--out-dir <unwritable>': (1, True)}; e.g. FileExistsError: [Errno 17] File exists: '/var/folders/vp/t64tf5650y5cc9w3mpdf_7mr0000gn/T/support_ai_edge_sj1wkmvh/iam_a_file.txt'",
+   "repro": "touch f; python3 main.py --out-dir f   # and: mkdir ro; chmod 500 ro; python3 main.py --out-dir ro/sub"
+  },
+  {
+   "id": "L04",
+   "area": "llm",
+   "probe": "stub LLM: off-label intent, exception, advice reply, promise reply",
+   "status": "OK",
+   "detail": "off-label -> ['deposit_issue', 'password_reset', 'withdrawal_issue', 'trading_advice_request', 'account_lock']; exception -> intents ['deposit_issue', 'password_reset', 'withdrawal_issue', 'trading_advice_request', 'account_lock']; advice reply -> refused=True; promise reply -> kept=False; LLM says T4 is 'other' -> refused=True flags=['advice_request']",
+   "repro": "see tests/test_llm_components.py for the StubClient pattern"
+  },
+  {
+   "id": "V01",
+   "area": "validate",
+   "probe": "validate.py against outputs written with --out-dir (default and custom tickets)",
+   "status": "OK",
+   "detail": "default: exit 0 (ALL CHECKS PASSED); custom: exit 0; custom outputs vs default tickets: exit 1 (expected non-zero)",
+   "repro": "python3 main.py -q --out-dir /tmp/o && python3 validate.py --out-dir /tmp/o"
+  },
+  {
+   "id": "V02",
+   "area": "validate",
+   "probe": "validate.py on a tampered but schema-valid results.json",
+   "status": "FINDING",
+   "detail": "validate.py exit 0; [PASS] reproducible: two fresh offline runs are byte-identical (note: results.json on disk differs, e.g. it was produced with --generator llm or older inputs)",
+   "repro": "python3 main.py -q --out-dir /tmp/o; edit /tmp/o/results.json (T2 intent->other, T1 confidence->0.12); python3 validate.py --out-dir /tmp/o"
+  },
+  {
+   "id": "V03",
+   "area": "validate",
+   "probe": "validate.py with results.json missing a record / extra field",
+   "status": "OK",
+   "detail": "exit 1: 2 CHECK(S) FAILED",
+   "repro": ""
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+temp dir: /var/folders/vp/t64tf5650y5cc9w3mpdf_7mr0000gn/T/support_ai_edge_sj1wkmvh
+[OK     ] I01  input      ticket missing 'message'
+           exit 2 in 0.04s; stderr: error: Ticket #0 must be an object with 'id' and 'message'
+[OK     ] I02  input      ticket missing 'id'
+           exit 2 in 0.04s; stderr: error: Ticket #0 must be an object with 'id' and 'message'
+[OK     ] I03  input      duplicate ids, incl. 'T1' vs ' T1 ' and 1 vs '1'
+           rejected with exit 2: [True, True, True]
+[OK     ] I04  input      non-list JSON (object) / scalar / invalid JSON / missing file / empty file
+           obj.json: exit 2; scalar.json: exit 2; bad.json: exit 2; empty.json: exit 2; missing: exit 2
+[FINDING] I05  input      null / numeric / list / dict message
+           accepted (no type check): [('N1', 'other', ['low_confidence', 'empty_message']), ('N2', 'other', ['insufficient_grounding', 'low_confidence']), ('N3', 'deposit_issue', []), ('N4', 'deposit_issue', [])]
+[OK     ] I06  input      non-string ids: int, bool, float, null
+           ids coerced to ['5', 'True', '1.0']; null id -> exit 2 in 0.04s; stderr: error: Ticket #0 has an empty id
+[FINDING] I07  input      language variants: null, 'EN', 'en-US', 'en_GB', 'english', 5, missing
+           escalated (unsupported_language) per language value: {'None': False, 'EN': False, 'en-US': True, 'en_GB': True, 'english': True, '5': True, 'MISSING': False}
+[OK     ] I08  input      array element is a string / nested array
+           exit 2 in 0.04s; stderr: error: Ticket #0 must be an object with 'id' and 'message'
+[OK     ] I09  input      empty ticket list []
+           exit 0 in 0.04s; stderr: -; results.json=[]; validate.py exit 0: ALL CHECKS PASSED
+[FINDING] I10  input      UTF-8 file with BOM (e.g. saved by Windows Notepad)
+           exit 2 in 0.04s; stderr: error: /var/folders/vp/t64tf5650y5cc9w3mpdf_7mr0000gn/T/support_ai_edge_sj1wkmvh/bom.json is not valid JSON: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0) (valid tickets rejected)
+[CRASH  ] I11  input      Latin-1 encoded file (non-UTF-8 bytes)
+           exit 1 in 0.04s; stderr: UnicodeDecodeError: 'utf-8' codec can't decode byte 0xe9 in position 31: invalid continuation byte
+[CRASH  ] I12  input      deeply nested JSON (100k levels)
+           exit 1 in 0.04s; stderr: RecursionError: maximum recursion depth exceeded while decoding a JSON array from a unicode string
+[CRASH  ] I13  input      lone UTF-16 surrogate in message (JSON escape \ud800)
+           exit 1 in 0.04s; stderr: UnicodeEncodeError: 'utf-8' codec can't encode character '\ud800' in position 355: surrogates not allowed
+[CRASH  ] I14  input      lone surrogate in ticket id
+           exit 1 in 0.04s; stderr: UnicodeEncodeError: 'utf-8' codec can't encode character '\udfff' in position 25: surrogates not allowed
+[FINDING] I15  input      NUL, zero-width, NBSP, RTL and emoji-only messages
+           U2 zero-width-only flagged empty_message=False (flags ['insufficient_grounding', 'low_confidence']); NBSP-only flags ['low_confidence', 'empty_message']; NUL msg intent deposit_issue
+[FINDING] I16  input      markdown/HTML in ticket id breaks debug_report.md table
+           table row has 8 pipes (7 expected): | A|B<script>x</script> | password_reset | A2 Password reset troubleshooting | 1.0 | no | 
+[OK     ] I17  input      very long ticket id (10k chars) and 100 KB benign message
+           exit 0 in 0.09s; stderr: -
+[OK     ] S01  scale      1,000 and 10,000 ticket rows (wall time incl. writing outputs)
+           (exit, seconds, debug_report.json bytes): {1000: (0, 0.49, 2242675), 10000: (0, 4.56, 22424050)}
+[FINDING] S02  scale      ReDoS: 3.2 KB ticket 'when my when my ...' (account-specific regex)
+           exit 0, 2.62s for ONE 3,200-char ticket (cubic: 6.4 KB ~21 s, 12.8 KB ~170 s)
+[OK     ] K01  kb         KB with an extra relevant article A6 + validate.py --kb
+           W1 -> ['A6', 'A3'] esc=True; validate.py exit 0: ALL CHECKS PASSED
+[FINDING] K02  kb         KB article with empty body / empty article_id / id with space
+           empty article_id accepted by loader; results: Q1 arts=[''] grounded=False reply='Thanks for reaching out about your deposit. Deposit limits apply per day []. If the issue '; Q2 arts=['A 8'] grounded=False reply='Thanks for reaching out about your deposit. Deposits are accepted in USD and EUR [A 8]. If'
+[OK     ] K03  kb         empty KB [] and non-list KB
+           empty -> exit 2 (error: Knowledge base is empty); object -> exit 2
+[OK     ] K04  kb         KB without the A5 trading policy article
+           T4 refused=True escalated=True flags=['advice_request', 'insufficient_grounding', 'low_confidence']
+[FINDING] K05  kb         KB article that itself contains a promise ('guaranteed within 24 hours')
+           promise copied into reply=True; flags=['policy_sensitive', 'account_specific_request'] esc=True (by design KB-backed claims are allowed; the reply then contradicts the agent-review closer)
+[OK     ] L01  cli        --generator llm / --classifier llm without API key
+           (exit, results.json identical to offline): {'--generator llm': (0, True), '--classifier llm': (0, True), '--classifier llm --generator llm': (0, True)}
+[OK     ] L02  cli        bogus ANTHROPIC_API_KEY with SDK not installed (Python 3.9)
+           exit 0; stderr: WARNING support_ai.llm_client: anthropic SDK not installed (pip install -r requirements-optional.txt); using offline components | WARNING support_ai.llm_client: anthropic SDK not installed (pip install -r requirements-optional.txt); using offline components
+[FINDING] L03  cli        unknown --classifier / --out-dir pointing at an existing file / unwritable dir
+           {'--classifier foo': 2, '--out-dir <file>': (1, True), '--out-dir <unwritable>': (1, True)}; e.g. FileExistsError: [Errno 17] File exists: '/var/folders/vp/t64tf5650y5cc9w3mpdf_7mr0000gn/T/support_ai_edge_sj1wkmvh/iam_a_file.txt'
+[OK     ] L04  llm        stub LLM: off-label intent, exception, advice reply, promise reply
+           off-label -> ['deposit_issue', 'password_reset', 'withdrawal_issue', 'trading_advice_request', 'account_lock']; exception -> intents ['deposit_issue', 'password_reset', 'withdrawal_issue', 'trading_advice_request', 'account_lock']; advice reply -> refused=True; promise reply -> kept=False; LLM says T4 is 'other' -> refused=True flags=['advice_request']
+[OK     ] V01  validate   validate.py against outputs written with --out-dir (default and custom tickets)
+           default: exit 0 (ALL CHECKS PASSED); custom: exit 0; custom outputs vs default tickets: exit 1 (expected non-zero)
+[FINDING] V02  validate   validate.py on a tampered but schema-valid results.json
+           validate.py exit 0; [PASS] reproducible: two fresh offline runs are byte-identical (note: results.json on disk differs, e.g. it was produced with --generator llm or older inputs)
+[OK     ] V03  validate   validate.py with results.json missing a record / extra field
+           exit 1: 2 CHECK(S) FAILED
+
+{'OK': 17, 'FINDING': 10, 'CRASH': 4}
+wrote eval/edge_results_postfix.json
