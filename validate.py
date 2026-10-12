@@ -95,10 +95,10 @@ def check_article_ids(ctx: Context) -> CheckResult:
         for r in ctx.results
     }
     bad = {k: v for k, v in bad.items() if v}
-    sizes_ok = all(len(r.get("retrieved_articles", [])) <= config.MAX_RETRIEVED for r in ctx.results)
+    sizes_ok = all(1 <= len(r.get("retrieved_articles", [])) <= config.MAX_RETRIEVED for r in ctx.results)
     if bad or not sizes_ok:
-        return "FAIL", f"unknown ids {bad}" if bad else f"more than {config.MAX_RETRIEVED} articles"
-    return "PASS", f"all retrieved ids are in kb_articles.json ({', '.join(sorted(ctx.kb))})"
+        return "FAIL", f"unknown ids {bad}" if bad else f"every result needs 1 to {config.MAX_RETRIEVED} article ids"
+    return "PASS", f"1-{config.MAX_RETRIEVED} ids per ticket, all in kb_articles.json ({', '.join(sorted(ctx.kb))})"
 
 
 def check_safety(ctx: Context) -> CheckResult:

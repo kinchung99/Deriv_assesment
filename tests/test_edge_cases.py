@@ -17,7 +17,7 @@ class EdgeCaseTest(unittest.TestCase):
         r = run_on_messages(["   "]).records[0]
         self.assert_valid(r)
         self.assertEqual(r["intent"], "other")
-        self.assertEqual(r["retrieved_articles"], [])
+        self.assertEqual(len(r["retrieved_articles"]), 1)  # spec: always 1-3 ids
         self.assertFalse(r["grounded"])
         self.assertTrue(r["needs_human_escalation"])
         self.assertIn(config.FLAG_EMPTY_MESSAGE, r["safety_flags"])
@@ -25,6 +25,9 @@ class EdgeCaseTest(unittest.TestCase):
     def test_gibberish_and_off_topic_go_to_other_and_escalate(self):
         for r in run_on_messages(["asdf qwerty zxcv", "How do I change my account currency?"]).records:
             self.assert_valid(r)
+            self.assertEqual(len(r["retrieved_articles"]), 1)  # best match, below threshold
+            self.assertFalse(r["grounded"])
+            self.assertNotRegex(r["reply_draft"], r"\[A\d\]")  # weak match is never cited
             self.assertEqual(r["intent"], "other")
             self.assertTrue(r["needs_human_escalation"])
             self.assertIn(config.FLAG_INSUFFICIENT_GROUNDING, r["safety_flags"])

@@ -42,7 +42,8 @@ def trace_to_dict(trace: TicketTrace, kb: Dict[str, Article]) -> dict:
         else None,
         "request_signals": s.evidence if s else [],
         "retrieved": [
-            {"article_id": h.article_id, "title": h.title, "bm25_score": h.score} for h in trace.hits
+            {"article_id": h.article_id, "title": h.title, "bm25_score": h.score, "relevant": h.relevant}
+            for h in trace.hits
         ],
         "reply": {
             "generator": d.source,
@@ -106,13 +107,12 @@ def write_debug_report(
             f"- **Predicted intent:** `{e['predicted_intent']}` "
             f"(source: {cls.get('source')}, certainty {cls.get('certainty')}, scores {cls.get('scores')})"
         )
-        if e["retrieved"]:
-            lines.append("- **Retrieved articles:**")
-            lines += [
-                f"  - {r['article_id']} — {r['title']} (BM25 {r['bm25_score']})" for r in e["retrieved"]
-            ]
-        else:
-            lines.append("- **Retrieved articles:** none above relevance threshold")
+        lines.append("- **Retrieved articles:**")
+        lines += [
+            f"  - {r['article_id']} — {r['title']} (BM25 {r['bm25_score']})"
+            + ("" if r["relevant"] else " — below relevance threshold, not used in reply")
+            for r in e["retrieved"]
+        ]
         lines.append(f"- **Confidence:** {e['confidence']} — {e['confidence_breakdown']}")
         if e["request_signals"]:
             lines.append(f"- **Request signals:** {'; '.join(e['request_signals'])}")

@@ -30,7 +30,7 @@ class Retriever(Protocol):
         """Build the search index. Must be called before retrieve()."""
 
     def retrieve(self, query: str, k: int) -> List[RetrievalHit]:
-        """Return up to k relevant hits, deterministically ordered."""
+        """Return 1..k hits, deterministically ordered; weak matches have relevant=False."""
 
 
 class Generator(Protocol):

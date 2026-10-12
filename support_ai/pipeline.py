@@ -91,12 +91,13 @@ class Pipeline:
         with stage("RETRIEVE_CONTEXT"):
             for tr in traces:
                 query = tr.ticket.message  # ticket text only; intent is not used
-                tr.hits = self.retriever.retrieve(query, config.MAX_RETRIEVED) if query.strip() else []
+                tr.hits = self.retriever.retrieve(query, config.MAX_RETRIEVED)
+                tr.context = [h for h in tr.hits if h.relevant]
 
         with stage("GENERATE_REPLY"):
             for tr in traces:
                 tr.draft = self.generator.generate(
-                    tr.ticket, tr.classification, tr.signals, tr.hits, kb, article_topics
+                    tr.ticket, tr.classification, tr.signals, tr.context, kb, article_topics
                 )
 
         with stage("VALIDATE_OUTPUT"):
@@ -105,7 +106,7 @@ class Pipeline:
                 retrieved = [h.article_id for h in tr.hits]
                 tr.grounding = analyze_grounding(tr.draft.reply, retrieved, kb)
                 tr.assessment = assess(
-                    tr.ticket, tr.classification, tr.signals, tr.hits, tr.draft, tr.grounding, kb, article_topics
+                    tr.ticket, tr.classification, tr.signals, tr.context, tr.draft, tr.grounding, kb, article_topics
                 )
                 candidate = TicketResult(
                     ticket_id=tr.ticket.id,

@@ -87,8 +87,8 @@ def schema_errors(record: object, known_article_ids: Iterable[str]) -> List[str]
             errors.append(f"unknown article ids: {unknown}")
         if len(set(articles)) != len(articles):
             errors.append("retrieved_articles contains duplicates")
-    if len(articles) > config.MAX_RETRIEVED:
-        errors.append(f"more than {config.MAX_RETRIEVED} retrieved articles")
+    if not 1 <= len(articles) <= config.MAX_RETRIEVED:
+        errors.append(f"retrieved_articles must contain 1 to {config.MAX_RETRIEVED} ids, got {len(articles)}")
     confidence = record["confidence"]
     if not math.isfinite(confidence) or not 0.0 <= confidence <= 1.0:
         errors.append(f"confidence {confidence} is outside [0, 1]")
@@ -133,12 +133,13 @@ def safe_fallback(record: dict, known_article_ids: Iterable[str]) -> dict:
     retrieved = record.get("retrieved_articles") if isinstance(record, dict) else None
     flags = record.get("safety_flags") if isinstance(record, dict) else None
     clean_flags = [f for f in (flags or []) if isinstance(f, str)]
+    kept = [a for a in (retrieved or []) if isinstance(a, str) and a in known][: config.MAX_RETRIEVED]
     return {
         "ticket_id": str(record.get("ticket_id", "")) if isinstance(record, dict) else "",
         "intent": intent if intent in config.ALLOWED_INTENTS else config.OTHER_INTENT,
-        "retrieved_articles": [
-            a for a in (retrieved or []) if isinstance(a, str) and a in known
-        ][: config.MAX_RETRIEVED],
+        # Schema needs 1-3 ids; if none survive, keep a deterministic known id
+        # (the record is ungrounded and escalated either way).
+        "retrieved_articles": kept or sorted(known)[:1],
         "reply_draft": templates.SAFE_FALLBACK_REPLY,
         "grounded": False,
         "confidence": 0.0,

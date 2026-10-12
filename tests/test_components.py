@@ -36,9 +36,16 @@ class RetrieverTest(unittest.TestCase):
         scores = [h.score for h in first]
         self.assertEqual(scores, sorted(scores, reverse=True))
 
-    def test_irrelevant_query_returns_nothing(self):
-        self.assertEqual(self.retriever.retrieve("asdf qwerty zxcv"), [])
-        self.assertEqual(self.retriever.retrieve("What are your office opening hours?"), [])
+    def test_irrelevant_query_returns_one_hit_marked_not_relevant(self):
+        for query in ("asdf qwerty zxcv", "What are your office opening hours?", ""):
+            hits = self.retriever.retrieve(query)
+            self.assertEqual(len(hits), 1, query)
+            self.assertFalse(hits[0].relevant, query)
+
+    def test_relevant_query_hits_are_marked_relevant(self):
+        hits = self.retriever.retrieve("my card deposit is missing")
+        self.assertTrue(1 <= len(hits) <= config.MAX_RETRIEVED)
+        self.assertTrue(all(h.relevant for h in hits))
 
     def test_retrieve_before_index_raises(self):
         with self.assertRaises(RuntimeError):

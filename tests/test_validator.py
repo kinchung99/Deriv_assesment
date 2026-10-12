@@ -36,6 +36,14 @@ class SchemaTest(unittest.TestCase):
     def test_bad_intent(self):
         self.assertTrue(schema_errors(good_record(intent="refund_request"), KB))
 
+    def test_retrieved_articles_must_have_one_to_three_ids(self):
+        self.assertTrue(schema_errors(good_record(retrieved_articles=[]), KB))
+        self.assertTrue(schema_errors(good_record(retrieved_articles=["A1", "A2", "A3", "A4"]), KB))
+
+    def test_safe_fallback_keeps_schema_when_no_valid_ids(self):
+        record, _, _ = enforce(good_record(retrieved_articles=["A9"]), KB)
+        self.assertEqual(schema_errors(record, KB), [])
+
     def test_unknown_article_id(self):
         self.assertTrue(any("unknown" in e for e in schema_errors(good_record(retrieved_articles=["A9"]), KB)))
 

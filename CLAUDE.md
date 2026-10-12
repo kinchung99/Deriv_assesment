@@ -34,6 +34,7 @@ There is no build or lint step. The core uses only the standard library and must
 Cross-file behaviour that isn't obvious from any single module:
 
 - **Classifier and retriever are kept independent.** Retrieval sees only the ticket text, never the predicted intent.
+- **Retrieval always returns 1–3 hits; the spec requires it.** A best match below `MIN_RELEVANCE_SCORE` comes back with `relevant=False`. The pipeline stores all hits in `TicketTrace.hits` (written to `retrieved_articles`) and passes only `TicketTrace.context`, the relevant hits, to the generator and policy.
 - **Article topics are derived, not hardcoded.** INDEX_KB tags each KB article with an intent by running `RuleClassifier` on the article's own text. `policy.assess` compares that tag with the ticket's intent to raise `conflicting_signals`. As a result, editing `INTENT_RULES` in `classifier.py` also changes article topics and conflict detection.
 - **Policy and grounding run inside VALIDATE_OUTPUT.** For each ticket, the steps are:
   1. `grounding.analyze_grounding(reply, retrieved, kb)`

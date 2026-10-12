@@ -69,7 +69,10 @@ class BM25Retriever:
 
     def retrieve(self, query: str, k: int = config.MAX_RETRIEVED) -> List[RetrievalHit]:
         ranked = self.score_all(query)
-        if not ranked or ranked[0].score < self.min_score:
-            return []
+        if ranked[0].score < self.min_score:
+            # Always return at least the best match (spec: top 1-3), marked not
+            # relevant so it is never used as grounding for the reply.
+            top = ranked[0]
+            return [RetrievalHit(top.article_id, top.title, top.score, relevant=False)]
         floor = max(self.min_score, ranked[0].score * self.relative_cutoff)
         return [h for h in ranked[: max(1, min(k, config.MAX_RETRIEVED))] if h.score >= floor]

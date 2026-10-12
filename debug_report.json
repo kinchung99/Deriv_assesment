@@ -38,7 +38,8 @@
         {
           "article_id": "A1",
           "title": "Card deposit processing times",
-          "bm25_score": 4.5924
+          "bm25_score": 4.5924,
+          "relevant": true
         }
       ],
       "reply": {
@@ -108,7 +109,8 @@
         {
           "article_id": "A2",
           "title": "Password reset troubleshooting",
-          "bm25_score": 10.784
+          "bm25_score": 10.784,
+          "relevant": true
         }
       ],
       "reply": {
@@ -179,7 +181,8 @@
         {
           "article_id": "A3",
           "title": "Withdrawal review and declines",
-          "bm25_score": 4.7237
+          "bm25_score": 4.7237,
+          "relevant": true
         }
       ],
       "reply": {
@@ -256,7 +259,8 @@
         {
           "article_id": "A5",
           "title": "No investment or trading advice",
-          "bm25_score": 3.0165
+          "bm25_score": 3.0165,
+          "relevant": true
         }
       ],
       "reply": {
@@ -330,7 +334,8 @@
         {
           "article_id": "A4",
           "title": "Account lock after failed sign-in attempts",
-          "bm25_score": 6.3377
+          "bm25_score": 6.3377,
+          "relevant": true
         }
       ],
       "reply": {

@@ -88,7 +88,7 @@ Each stage is a separate module and passes typed dataclasses to the next. The pi
 | Module | Stage | What it does |
 |---|---|---|
 | [loader.py](support_ai/loader.py) | LOAD_DATA | Reads both JSON files. Checks that required keys exist and IDs are unique, and normalises whitespace. |
-| [retriever.py](support_ai/retriever.py) | INDEX_KB, RETRIEVE_CONTEXT | BM25 over title and body, in pure Python. The query is the **ticket text only**. Results are sorted by `(-score, article_id)` so ties always break the same way. It returns the top hit plus any hit scoring at least 50% of it (at most 3), or nothing if the top score is below the relevance threshold. |
+| [retriever.py](support_ai/retriever.py) | INDEX_KB, RETRIEVE_CONTEXT | BM25 over title and body, in pure Python. The query is the **ticket text only**. Results are sorted by `(-score, article_id)` so ties always break the same way. It returns the top hit plus any hit scoring at least 50% of it (at most 3). If even the top hit is below the relevance threshold, it returns that one hit marked `relevant=False`, which is never used as grounding. |
 | [text.py](support_ai/text.py) | shared | Tokeniser, stopwords, light stemmer, phrase normalisation (`sign-in`/`log in` → `login`) and a small query-synonym map. |
 | [classifier.py](support_ai/classifier.py) | CLASSIFY_INTENT | `RuleClassifier`: weighted regex rules per intent. Certainty = (top score's share of top + runner-up) × coverage, where coverage is how close the top score is to a "strong" score. `LLMClassifier`: a structured-output enum restricted to the allowed labels, falling back to the rules. |
 | [policy.py](support_ai/policy.py) | between classify and validate | Request signals (advice request, account-specific question, mixed intents, language, empty message), the confidence formula, safety flags and escalation reasons. |
@@ -135,7 +135,7 @@ confidence = 0.45·classifier_certainty + 0.35·retrieval_strength + 0.20·groun
 - **Rules + BM25 instead of embeddings.** With 5 articles and 6 labels, transparent rules and BM25 are deterministic, explainable in the debug report, and run anywhere. The protocols make an embedding retriever or an LLM classifier a drop-in replacement.
 - **Extractive generation by default.** Grounding and traceability come from how the reply is built, not from hoping the model follows instructions. The LLM generator is held to the same checks.
 - **Safety over completeness.** If anything is uncertain (no relevant article, mixed intents, account-specific questions), the ticket is escalated instead of answered with a confident guess. Trading advice is always refused, even when the request is buried in another question or phrased as a prompt injection.
-- **`retrieved_articles` may be empty.** For gibberish or off-topic tickets, nothing clears the relevance threshold. Returning an unrelated article would be misleading, so the list is empty and the ticket is flagged `insufficient_grounding` and escalated.
+- **Always 1 to 3 article IDs.** When nothing clears the relevance threshold (gibberish, off-topic or empty tickets), retrieval still returns the single best match. It is marked `relevant: false` in the debug report and never used or cited in the reply, and the ticket is flagged `insufficient_grounding` and escalated.
 - **No ticket-ID logic.** Nothing in the pipeline depends on IDs; tests run paraphrased tickets with new IDs. The only ID-specific checks are the T1 and T4 sample checks in `validate.py`, which the spec requires.
 
 ## Known limitations and next steps

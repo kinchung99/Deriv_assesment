@@ -38,6 +38,7 @@ class RetrievalHit:
     article_id: str
     title: str
     score: float
+    relevant: bool = True  # False: best available match, but below the relevance threshold
 
 
 @dataclass
@@ -121,7 +122,8 @@ class TicketTrace:
     ticket: Ticket
     classification: Optional[Classification] = None
     signals: Optional[RequestSignals] = None
-    hits: List[RetrievalHit] = field(default_factory=list)
+    hits: List[RetrievalHit] = field(default_factory=list)  # all retrieved (1-3)
+    context: List[RetrievalHit] = field(default_factory=list)  # relevant hits used for the reply
     draft: Optional[Draft] = None
     grounding: Optional[GroundingReport] = None
     assessment: Optional[Assessment] = None
