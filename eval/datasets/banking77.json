@@ -1,0 +1,4450 @@
+[
+ {
+  "id": "B77-0001",
+  "message": "Do you have any idea on when I will receive my refund? I got my statement and it was not there.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "Refund_not_showing_up",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0002",
+  "message": "I requested a refund from a merchant days ago but I do not see it in my account.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "Refund_not_showing_up",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0003",
+  "message": "Still waiting on a refund.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "Refund_not_showing_up",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0004",
+  "message": "I bought something and returned it and the money from the return isn't in my account.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "Refund_not_showing_up",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0005",
+  "message": "WHAT CAN I DO AFTER THE CARD MISSING",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "activate_my_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0006",
+  "message": "I received my new card, how is it activated?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "activate_my_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0007",
+  "message": "I tried activating my bill of fare and it didn't workplace",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "activate_my_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0008",
+  "message": "I would like to get help from someone with activating my card.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "activate_my_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0009",
+  "message": "How old do my children need to be to open an account?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "age_limit",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0010",
+  "message": "How old does one have to be to have an account with the bank?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "age_limit",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0011",
+  "message": "How do I open up an account for my child?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "age_limit",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0012",
+  "message": "Can my daughter open an account?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "age_limit",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0013",
+  "message": "How do I troubleshoot Google pay top up?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "apple_pay_or_google_pay",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0014",
+  "message": "How can I top-ff my account using my Apple Watch?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "apple_pay_or_google_pay",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0015",
+  "message": "Is the top up feature available on the Apple Watch?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "apple_pay_or_google_pay",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0016",
+  "message": "can i top up with apple pay",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "apple_pay_or_google_pay",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0017",
+  "message": "Which ATMs accept this card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "atm_support",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0018",
+  "message": "What are the ATMs that will accept this card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "atm_support",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0019",
+  "message": "What ATMs is the card okay to use at?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "atm_support",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0020",
+  "message": "How can I find the nearest ATM?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "atm_support",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0021",
+  "message": "I made a transfer a few hours ago from a UK banking account. I do not yet see the transfer. Please check on this for me.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0022",
+  "message": "the balance on my account didnt change when i transferred money",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0023",
+  "message": "How long will it take for my transferred money to show up?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0024",
+  "message": "Why didn't my balance change after I transferred some money?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0025",
+  "message": "When will my balance update after a transfer?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0026",
+  "message": "How long does it take for an international transfer into my account?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0027",
+  "message": "The amount of time that transfers usually take from a UK account is what?I just completed a transfer and it is not showing up at all. I'm wondering at this point if everything is actually okay.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0028",
+  "message": "When will my transfer be available in my account.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0029",
+  "message": "I didn't get the money I transferred",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0030",
+  "message": "I just completed a bank transfer and the balance didn't update",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0031",
+  "message": "I transferred some money but I think it has gotten lost somewhere.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0032",
+  "message": "How long does a UK transfer take?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0033",
+  "message": "Hello I made a bank transfer couple hours ago from my UK account but it doesn't show up yet. Can you please check if everything is alright with it?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0034",
+  "message": "I made a transfer and am still waiting.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0035",
+  "message": "I made an out of country transfer and it hasn't went through yet.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0036",
+  "message": "After the transfer, the balance did not update.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0037",
+  "message": "Could you please check one of my transfer which i made few hours ago from my UK bank account, as its not showing yet.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0038",
+  "message": "I had cash transferred but the balance did not change.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0039",
+  "message": "I can't see my latest bank transfer",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0040",
+  "message": "My bank transfer is still not showing up in my account.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0041",
+  "message": "I made a transfer and it doesnt' show up in my account.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0042",
+  "message": "I transferred some money but it is yet to arrive.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0043",
+  "message": "Why is my balance the same? I processed a transfer.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0044",
+  "message": "Why don't I have my transfer?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0045",
+  "message": "Why isn't the transfer on my account showing up?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0046",
+  "message": "The money I transferred does not show in the balance.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0047",
+  "message": "I have completed a transfer but it is not showing up.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0048",
+  "message": "I did a transfer to my account but it doesn't show up",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0049",
+  "message": "How long until my transfer will be available to me",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0050",
+  "message": "Why doesn't it show that I did a balance transfer?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0051",
+  "message": "I made a bank transfer a couple of hours ago from my UK account. It hasn't appeared, can you check to make sure it went through?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0052",
+  "message": "My transfer is pending.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0053",
+  "message": "Hey, I try to make a bank transfer from my UK account a few hours ago, but it haven't show up yet. Please check my account to make sure everything alright with it?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0054",
+  "message": "Where is my transfer from [country]?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0055",
+  "message": "I made a bank transfer and my account balance did not show it.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0056",
+  "message": "Where is my money? I transfered it and it isn't in my account.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0057",
+  "message": "I need to know the time frame that is typical for a transfer from a UK account. I just made a transfer and it doesn't appear. I want to make sure everything is okay.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0058",
+  "message": "Why doesn't my balance reflect my transfer",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0059",
+  "message": "My account balance has not gone up even though I just transferred money into it",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0060",
+  "message": "When will I see my new balance after making my bank transfer?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_bank_transfer",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0061",
+  "message": "I tried making an update to my balance using cheque just yesterday but it doesn't appear to have worked. Should this not be a faster process? I need you to please check over my account because something has went wrong.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0062",
+  "message": "How come I don't see my deposit in my account yet?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0063",
+  "message": "Is there a reason why my account isn't updating because I used a check to balance my account?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0064",
+  "message": "I don't know why the deposit I made a week ago still hasn't showed up, I really need the money now.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0065",
+  "message": "I made a cash deposit almost a week ago but it's still not there!! please sort this out asap I need the money",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0066",
+  "message": "Where is my cash deposit?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0067",
+  "message": "How can I get the cash deposit to show up on my account?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0068",
+  "message": "When will I see the cash I deposited this morning as available?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0069",
+  "message": "cash from this morning has not deposited",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0070",
+  "message": "Where is the cash from my cheque I recently deposited?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0071",
+  "message": "Cash deposit to my account but it has not appeared.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0072",
+  "message": "When I deposit cheques and cash, my balance does not update.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0073",
+  "message": "I made a deposit this morning but it is still pending?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0074",
+  "message": "cash deposit to my account has shown a red flag.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0075",
+  "message": "I have paid money into my account but it doesn't show.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0076",
+  "message": "The balance on my account wasn't updated after I made a depost.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0077",
+  "message": "Are cheques accepted to my account? Mine didn't seem to work.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0078",
+  "message": "I deposited a check but my balance is still the same.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0079",
+  "message": "IM still waiting for my account to update from a cash deposit?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0080",
+  "message": "I Submitted a cheque couple days ago, nothing happened to my account yet.Would you please check What could be the possible issue?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0081",
+  "message": "Where is my deposit?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0082",
+  "message": "My bank statement doesn't show the cash deposit I made recently.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0083",
+  "message": "My cash deposit from a week ago hasn't shown up. I need the money - how quickly can you sort this out?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0084",
+  "message": "Why didn't my balance update after my cash or checque deposit?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0085",
+  "message": "Why is the cash deposit not showing up in my account?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0086",
+  "message": "I made a deposit of cash and check that has not been added to my balance.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0087",
+  "message": "Why hasn't my balance increased after depositing a check?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0088",
+  "message": "Why does my account not accept cash deposits?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0089",
+  "message": "What happened to the cash that I tried to deposit into my account? It's gone!",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0090",
+  "message": "I had a cheque deposited, but I still haven't seen the cash.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0091",
+  "message": "A cheque deposit hasn't posted to my account, when will my balance update?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0092",
+  "message": "I submitted a cash deposit to my account but it hasn't posted yet.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0093",
+  "message": "I sent a cheque a few days ago and nothing has happened to my account yet. Can you please check on this for me?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0094",
+  "message": "Has the check I deposited cleared to I can get the cash?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0095",
+  "message": "How long does it take to process cheque deposits?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0096",
+  "message": "How come my cash deposit is not showing up. This can't be right. There must be some mistake. Where did my cash go. You better not have lost it as I need this money asap.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0097",
+  "message": "I deposited cash this morning and I am still waiting",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0098",
+  "message": "Balance hasn't been updated following a cheque or cash deposit",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0099",
+  "message": "I tired to deposit some cash into my account but it's not there",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0100",
+  "message": "I sent you a cheque couple days ago, nothing happened to my account yet! This is unacceptable, where is my money??",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "balance_not_updated_after_cheque_or_cash_deposit",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0101",
+  "message": "How come I'm not allowed to transfer funds right now? I just keep getting an error message.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "beneficiary_not_allowed",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0102",
+  "message": "Why did I get a message saying that my transfer is not possible? I have done this before no problem. Please fix.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "beneficiary_not_allowed",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0103",
+  "message": "Can you please help me with this exchange? I am trying to get crypto and the app won't let me.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "beneficiary_not_allowed",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0104",
+  "message": "Can you help with a transfer to an account",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "beneficiary_not_allowed",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0105",
+  "message": "I want to reverse my transaction from earlier",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "cancel_transfer",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0106",
+  "message": "Cancel my last transfer",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "cancel_transfer",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0107",
+  "message": "My transaction needs to be canceled.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "cancel_transfer",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0108",
+  "message": "Help me cancel my transaction",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "cancel_transfer",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0109",
+  "message": "Once my card expires, what should I do?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_about_to_expire",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0110",
+  "message": "When my card expires do you send a new card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_about_to_expire",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0111",
+  "message": "The expiration date on my card is coming up",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_about_to_expire",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0112",
+  "message": "My card's expiring, what happens now?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_about_to_expire",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0113",
+  "message": "What places can I use my card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_acceptance",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0114",
+  "message": "Will any business take this card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_acceptance",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0115",
+  "message": "Where should my card work?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_acceptance",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0116",
+  "message": "What can I use my card to pay for?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_acceptance",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0117",
+  "message": "Does the card you sent have a way to track to it?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_arrival",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0118",
+  "message": "My card has not arrived yet.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_arrival",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0119",
+  "message": "Do you know if there is a tracking number for the new card you sent me?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_arrival",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0120",
+  "message": "still waiting on my new card",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_arrival",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0121",
+  "message": "Ordered awhile back, what is the ETA in the US?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_delivery_estimate",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0122",
+  "message": "Can you get me my card fast?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_delivery_estimate",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0123",
+  "message": "How long will it take to deliver something to US?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_delivery_estimate",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0124",
+  "message": "When will my card arrive?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_delivery_estimate",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0125",
+  "message": "Can you please show me where I can find the location to link my card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_linking",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0126",
+  "message": "I received my new card, but I don't see it in the app anywhere. What do I do?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_linking",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0127",
+  "message": "Where do I need to go in the app to enter my card info?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_linking",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0128",
+  "message": "How do I re-add a card to the app?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_linking",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0129",
+  "message": "My card was declined today when eating and I need to know what's wrong.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_not_working",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0130",
+  "message": "Need help with my card. It's not working.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_not_working",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0131",
+  "message": "My card doesn't accept any transaction at all. What's wrong??",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_not_working",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0132",
+  "message": "Can you please identify the problem with my bank card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_not_working",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0133",
+  "message": "Paying in card resulted in a fee",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_payment_fee_charged",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0134",
+  "message": "Why do you charge for payments? Why aren't your charges clearly laid out in the agreement?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_payment_fee_charged",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0135",
+  "message": "I show another charge on my card from when I used it, why?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_payment_fee_charged",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0136",
+  "message": "How do I avoid getting charged a fee on my card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_payment_fee_charged",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0137",
+  "message": "There is a fraudulent charge on my statement.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_payment_not_recognised",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0138",
+  "message": "What is the payment in my account that I did not do?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_payment_not_recognised",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0139",
+  "message": "There's a recent charge on my card that I know I didn't make because I've never seen the name before. Can we investigate this?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_payment_not_recognised",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0140",
+  "message": "There is a payment that is not mine.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_payment_not_recognised",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0141",
+  "message": "I bought an item and noticed the exchange rate was not correct.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_payment_wrong_exchange_rate",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0142",
+  "message": "How can I check the exchange rate applied to my transaction?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_payment_wrong_exchange_rate",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0143",
+  "message": "the conversion value for my card payments is incorrect.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_payment_wrong_exchange_rate",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0144",
+  "message": "The exchange rate seems off on this transaction",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_payment_wrong_exchange_rate",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0145",
+  "message": "The ATM didn't give me the card back!",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_swallowed",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0146",
+  "message": "Why would an ATM swallow my card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_swallowed",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0147",
+  "message": "What do I do if an ATM \"stole\" my card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_swallowed",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0148",
+  "message": "I was retrieving money and my card wouldn't remove.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "card_swallowed",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0149",
+  "message": "There are transactions I didn't make, someone else must have used my card.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "compromised_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0150",
+  "message": "Someone else may be using my card. There are transactions I don't recognize.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "compromised_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0151",
+  "message": "I see random purchases to my account, was it hacked?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "compromised_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0152",
+  "message": "I think someone has access to my card numbers that shouldn't.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "compromised_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0153",
+  "message": "I tried to pay contactless at the bus today and it didn't work. Any ideas why?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "contactless_not_working",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0154",
+  "message": "My contanctless has stopped working",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "contactless_not_working",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0155",
+  "message": "I am not able to do contactless.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "contactless_not_working",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0156",
+  "message": "When I tried to pay for my bus ride, the contactless payment wouldn't work. How can I prevent this in the future?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "contactless_not_working",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0157",
+  "message": "I need a card, but I'm in the US at the moment.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "country_support",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0158",
+  "message": "How many countries do you support?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "country_support",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0159",
+  "message": "I live in the US but want to get a card",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "country_support",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0160",
+  "message": "What countries are supported?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "country_support",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0161",
+  "message": "Why was my Payment declined",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "declined_card_payment",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0162",
+  "message": "I was out today looking forward to pay with my new card, turns out the payment just kept getting declined. This is really sad, what's going on?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "declined_card_payment",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0163",
+  "message": "The new card that was just sent to me was declined multiple times yesterday when I tried to use it at a restaurant to pay for my dinner. I am really disappointed and embarrassed that my card was denied when I tried to use it to pay for my friend's birthday dinner.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "declined_card_payment",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0164",
+  "message": "My credit card was declined.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "declined_card_payment",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0165",
+  "message": "Can you tell me why you won't let me get my own money out of the money machine? I know I used the right PIN.",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0166",
+  "message": "My withdrawal was cancelled.",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0167",
+  "message": "This is very frustrating. I can't get my card to work on any ATM I try and I've tried 3 of them so far. What's going on? Can you please fix this issue immediately?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0168",
+  "message": "The ATM did not allow me to withdraw",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0169",
+  "message": "Why was my ATM transaction cancelled?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0170",
+  "message": "The ATM keeps declining my card. I tried at a couple different ATMs. Can you tell me if there's a problem with my account?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0171",
+  "message": "I was at the ATM trying to made a withdraw and I was declined.",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0172",
+  "message": "The ATM didn't let me get any cash",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0173",
+  "message": "I want to know why I have been unable to withdrawn funds.",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0174",
+  "message": "I need your help to check my account, please! My card keeps being declined at the ATM, and I've already tried two different ones!",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0175",
+  "message": "Hi, My card withdrawal was declined this morning. It was working fine till yesterday. Please check and inform me.",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0176",
+  "message": "Hi, I was trying to use my card but it was declining by ATM. I have cross checked with two different ATMs but i was facing the same issue. Could you please check my account.",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0177",
+  "message": "I tried to make a cash withdrawal and it was declined. Why did this happen?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0178",
+  "message": "I can't get money out of the ATM",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0179",
+  "message": "The ATM is declining my card. I tried at two different ATMs. Can you tell me if there's anything wrong with my account?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0180",
+  "message": "The withdrawal was declined I am unsure as to why this happened?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0181",
+  "message": "I was declined when I tried to get cash.",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0182",
+  "message": "Why was I declined at the ATM today when I was trying to make a withdraw?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0183",
+  "message": "What are some reasons that would cause ATM machines to decline my card? It has happened to me multiple times!",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0184",
+  "message": "Why did the ATM machine fail to give me a cash withdrawal?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0185",
+  "message": "My ATM transaction was unsuccessful.",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0186",
+  "message": "I attempted to get cash but was declined.",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0187",
+  "message": "I tried to withdraw money but I was declined!",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0188",
+  "message": "How come I can't take money out of the ATM?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0189",
+  "message": "The ATM keeps declining my card. I tried at two different ATMs. Can you tell me if there's an issue with my account?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0190",
+  "message": "Why was my cash withdrawal declined?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0191",
+  "message": "Why could I not get cash?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0192",
+  "message": "why couldn't I get cash in the ATM?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0193",
+  "message": "Why can't I get cash?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0194",
+  "message": "Why didn't the ATM give me my money?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0195",
+  "message": "i tried to withdraw money from an atm and i was declined on front of my friends. Why did this happen?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0196",
+  "message": "The ATM isn't giving out any money.",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0197",
+  "message": "Why was I declined getting cash?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0198",
+  "message": "I couldn't get cash at the atm",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0199",
+  "message": "Oh my goodness, my card has been declined twice at ATM! I tried two different ATM, but each one declined my card! Can you tell me what's going on with my account?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0200",
+  "message": "Why could I not choose cash at the ATM?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0201",
+  "message": "My cash withdrawl was declined why?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0202",
+  "message": "Is there a reason that the ATM declined my transaction?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0203",
+  "message": "The cash I tried to draw from the ATM was not approved.",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0204",
+  "message": "atm would not give me cash",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "declined_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0205",
+  "message": "Can I dispute a payment even if I notice it several weeks after it was made?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "direct_debit_payment_not_recognised",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0206",
+  "message": "I understand that this is extremely late. After going over my transactions for the last couple of months I noticed a large charge that I'm sure I did not make. Is there anyway I can still dispute this?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "direct_debit_payment_not_recognised",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0207",
+  "message": "someone stole my money",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "direct_debit_payment_not_recognised",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0208",
+  "message": "There's a debit on my account that I didn't do.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "direct_debit_payment_not_recognised",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0209",
+  "message": "What is the maximum number of transactions I can make with one card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "disposable_card_limits",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0210",
+  "message": "What is the limit to number of transactions I can do with a disposable card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "disposable_card_limits",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0211",
+  "message": "If I have more than one disposable card, can I make five payments on each of them?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "disposable_card_limits",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0212",
+  "message": "what is the disposable cards limit?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "disposable_card_limits",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0213",
+  "message": "Where can I change my personal information after I move?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "edit_personal_details",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0214",
+  "message": "I need to edit the personal details section of my account",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "edit_personal_details",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0215",
+  "message": "How to change my address.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "edit_personal_details",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0216",
+  "message": "My address needs to be revised.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "edit_personal_details",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0217",
+  "message": "Is there a fee for exchanging foreign currencies?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "exchange_charge",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0218",
+  "message": "Is there a charge for a foreign currency exchange?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "exchange_charge",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0219",
+  "message": "Does it cost to exchange currencies with this card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "exchange_charge",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0220",
+  "message": "I would like to exchange currencies, but is there an extra charge to do so?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "exchange_charge",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0221",
+  "message": "when does the rate get determined",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "exchange_rate",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0222",
+  "message": "The exchange rate would be?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "exchange_rate",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0223",
+  "message": "How are you determining your exchange rates?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "exchange_rate",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0224",
+  "message": "I'm trying to figure out the current exchange rate.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "exchange_rate",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0225",
+  "message": "If I receive foreign currencies, am I able to exchange them on the app?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "exchange_via_app",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0226",
+  "message": "Can I exchange currencies with my account?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "exchange_via_app",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0227",
+  "message": "How are currencies exchanged?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "exchange_via_app",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0228",
+  "message": "Can this app help me exchange currencies?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "exchange_via_app",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0229",
+  "message": "Can you please check why I am having this extra fee on my statement.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "extra_charge_on_statement",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0230",
+  "message": "There is an extra charge on my app that I was not told about or I was aware of!",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "extra_charge_on_statement",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0231",
+  "message": "Why are there so many fees on my statement?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "extra_charge_on_statement",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0232",
+  "message": "$1 extra has been charged on my statement, why is that?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "extra_charge_on_statement",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0233",
+  "message": "I want to know how many different currencies my money can be in",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "fiat_currency_support",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0234",
+  "message": "What kind of fiat currency can I used for holding and exchange?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "fiat_currency_support",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0235",
+  "message": "Can I exchange currencies?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "fiat_currency_support",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0236",
+  "message": "What currencies can I hold money in?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "fiat_currency_support",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0237",
+  "message": "What can you tell me about getting a virtual disposable card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "get_disposable_virtual_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0238",
+  "message": "Can I create a disposable virtual card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "get_disposable_virtual_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0239",
+  "message": "Where's the best place to get a disposable virtual card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "get_disposable_virtual_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0240",
+  "message": "can i get a description of how to use a disposable virtual card",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "get_disposable_virtual_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0241",
+  "message": "How do I set-up my PIN for the new card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "get_physical_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0242",
+  "message": "How do I find my card PIN?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "get_physical_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0243",
+  "message": "Help me find my card pin!",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "get_physical_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0244",
+  "message": "If I need a PIN for my card, where is it located?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "get_physical_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0245",
+  "message": "I need some spare physical cards.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "getting_spare_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0246",
+  "message": "Am I allowed to give my daughter one of my cards to use?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "getting_spare_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0247",
+  "message": "If I need more cards, are there any fees?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "getting_spare_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0248",
+  "message": "I would like to receive a few more physical cards.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "getting_spare_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0249",
+  "message": "Can you help me sign up for a virtual card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "getting_virtual_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0250",
+  "message": "Where is the virtual card located?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "getting_virtual_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0251",
+  "message": "I thought I was going to get a virtual card but I haven't received it yet, how can we resolve this?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "getting_virtual_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0252",
+  "message": "Can I order a virtual card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "getting_virtual_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0253",
+  "message": "How do I report a stolen card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "lost_or_stolen_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0254",
+  "message": "My bags were stolen. I need a new card but need to cancel the stolen one.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "lost_or_stolen_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0255",
+  "message": "My card is gone I think it was stolen",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "lost_or_stolen_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0256",
+  "message": "My card was taken from me",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "lost_or_stolen_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0257",
+  "message": "My phone is not with me at the moment so I will not be able to access the app.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "lost_or_stolen_phone",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0258",
+  "message": "I lost my phone and would like to freeze my accounts.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "lost_or_stolen_phone",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0259",
+  "message": "I can't find my phone.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "lost_or_stolen_phone",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0260",
+  "message": "My phone is lost. What do I do to prevent someone from using the app?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "lost_or_stolen_phone",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0261",
+  "message": "How much does it cost in fees to use your card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "order_physical_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0262",
+  "message": "For physical cards, do you charge?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "order_physical_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0263",
+  "message": "Please tell me how to get a physical card.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "order_physical_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0264",
+  "message": "can I have a non virtual card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "order_physical_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0265",
+  "message": "What do I do if I forget my passcode? Because I did.",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0266",
+  "message": "I can't find my password",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0267",
+  "message": "How do I retrieve my passcode?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0268",
+  "message": "My passcode doesn't seem to be working",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0269",
+  "message": "I lost my password",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0270",
+  "message": "My password isn't being accepted and I need to reset it.",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0271",
+  "message": "Something is wrong with my password.",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0272",
+  "message": "Something is wrong with my passcode",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0273",
+  "message": "How do I reset a forgotten passcode, please?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0274",
+  "message": "I can't recall my passcode and need to reset it.",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0275",
+  "message": "Can I be given a new passcode?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0276",
+  "message": "I do not know my passcode.",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0277",
+  "message": "I don't remember my code to get into the app.",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0278",
+  "message": "I no longer have my passcode.",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0279",
+  "message": "Why won't my passcode work?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0280",
+  "message": "Can I resent my passcode?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0281",
+  "message": "I need to reset my passcode. How do I do it?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0282",
+  "message": "Show me please how to reset my passcode.",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0283",
+  "message": "Help me reset the passcode.",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0284",
+  "message": "I have forgotten my passcode to access my app",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0285",
+  "message": "What should I do if the passcode doesn't work for me?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0286",
+  "message": "I do not remember the code, what should I do?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0287",
+  "message": "Where can I reset the passcode?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0288",
+  "message": "I need help resetting my passcode to access my app.",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0289",
+  "message": "What steps do I take to receive another passcode?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0290",
+  "message": "I forgot my password",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0291",
+  "message": "I forgot my code to get into the app.",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0292",
+  "message": "I have forgotten my password.",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0293",
+  "message": "I forgot the code to access the app.",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0294",
+  "message": "Is there a way to reset my passcode?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0295",
+  "message": "Can you help me reset my password?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0296",
+  "message": "Can I reset my password? I don't know what it is.",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0297",
+  "message": "How do I reset the passcode?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0298",
+  "message": "What should I do if I forgot my passcode?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0299",
+  "message": "My passcode doesn't work",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0300",
+  "message": "Tell me how to reset the passcode.",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0301",
+  "message": "I need a new passcode.",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0302",
+  "message": "I don't have my access code for the app.",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0303",
+  "message": "Can you tell me what to do to reset my passcode?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0304",
+  "message": "What is the code I need to get into the app?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "passcode_forgotten",
+  "source": "banking77/test",
+  "expect_article": "A2"
+ },
+ {
+  "id": "B77-0305",
+  "message": "Why are my payments showing pending?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "pending_card_payment",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0306",
+  "message": "I bought some things this morning but the payment shows that it is pending",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "pending_card_payment",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0307",
+  "message": "My payment still hasn't processed!",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "pending_card_payment",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0308",
+  "message": "How long does it take for a payment to go thru? I made one a few days ago and it has not been cleared yet.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "pending_card_payment",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0309",
+  "message": "My withdrawl is still pending. Why?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0310",
+  "message": "My card was denied at an ATM earlier today but the transaction is pending. Please cancel it as I did not receive my money.",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0311",
+  "message": "My transaction is still showing that is pending from my cash withdrawal.",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0312",
+  "message": "Hey I tried to get some money out earlier but the machine didn't work. Now just saw the transaction still seems in progress! Can you please check what's going there, seems something is broken, I don't want to be charged for money that I haven't actually received!",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0313",
+  "message": "How long does the cash withdrawal take to pend?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0314",
+  "message": "Why is it taking so long for my cash withdrawal to no longer show as pending?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0315",
+  "message": "I tried taking money from the ATM but no money came out, but the transaction is still pending? How is this possible?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0316",
+  "message": "I got some cash of an ATM earlier but this shows up as pending in the app. How can this be still pending, I've got the cash already?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0317",
+  "message": "Why is my withdrawal still pending?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0318",
+  "message": "Are you sure when the withdrawal will show?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0319",
+  "message": "Hi! I was wondering if you can help me. I used the city centre ATM to get some cash, but the machine declined my card. My account shows that transaction is still pending. I didn't receive the money, so please cancel that transaction.",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0320",
+  "message": "Why is a transaction showing as pending when I recieved cash from an ATM?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0321",
+  "message": "My cash in the ATM is still pending",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0322",
+  "message": "my atm cash out is still pending",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0323",
+  "message": "I am still waiting for a cash withdrawal to show",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0324",
+  "message": "Is my pending cash withdrawal processed?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0325",
+  "message": "how long til my cash out goes through?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0326",
+  "message": "Why is my ATM cash withdrawal showing up as a pending transaction?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0327",
+  "message": "Hi,I tried to get some money out but the machine was not working .The transaction still seems in progress! Can you please check what's going on.I don't want to be charged for money that I did not received.",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0328",
+  "message": "Hey, my card was declined at an ATM in the city centre theatre. My account says the transaction is pending, though. I didn't get the money, though, so what does that mean?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0329",
+  "message": "Why do I have a pending cash withdrawal?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0330",
+  "message": "I have a pending cash withdrawal",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0331",
+  "message": "I made a withdrawal from my account but it has not posted?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0332",
+  "message": "Is my cash withdrawal pending?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0333",
+  "message": "I'm not quite understanding why my cash withdrawal is showing as pending.",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0334",
+  "message": "I made a cash withdrawal but the pending status is taking forever.",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0335",
+  "message": "My cash withdrawal is still showing as pending.",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0336",
+  "message": "Why am I unable to take money from my card but the statement says the transaction is still pending?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0337",
+  "message": "Why does my account have a pending cash withdrawal?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0338",
+  "message": "I have a pending transaction in my app. How is it still pending if I pulled the cash out from the ATM earlier?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0339",
+  "message": "Cash withdrawal still pending?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0340",
+  "message": "I received cash from the ATM earlier, but this shows up as pending in the app. I've got the cash already. How can this be still pending?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0341",
+  "message": "I tried to take money from my card, but it didn't work. Later I saw that the transaction is still in progress. What's goign on?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0342",
+  "message": "Why does it say pending cash withdrawal on my statement?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0343",
+  "message": "How long with my cash withdrawal stay pending for?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0344",
+  "message": "Where's accounting for my cash withdrawal?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0345",
+  "message": "My account was charged for a withdraw I tried to make that was decline.",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0346",
+  "message": "how long does it take to post atm with drawl",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0347",
+  "message": "Why is my cash withdrawal from the ATM still not yet showing as confirmed in my account?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0348",
+  "message": "What's a pending transaction? My card was declined at an ATM, but my account says it's still pending. Can I cancel the payment?",
+  "language": "en",
+  "expected_intent": "withdrawal_issue",
+  "category": "pending_cash_withdrawal",
+  "source": "banking77/test",
+  "expect_article": "A3"
+ },
+ {
+  "id": "B77-0349",
+  "message": "new customer and filling gas today, it's not working, the thing shows pending half an hour!",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0350",
+  "message": "My card was topped this morning but I can't see the funds. Why didn't it complete?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0351",
+  "message": "What would lead to my top up still pending?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0352",
+  "message": "there's a delay in my top-up",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0353",
+  "message": "Is there a reason my top up hasn't gone through",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0354",
+  "message": "The top-up is pending.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0355",
+  "message": "Could you explain why my top-up has gone through yet?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0356",
+  "message": "I've already topped up, but I cannot see the funds being available. What happened?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0357",
+  "message": "What is going on? My top-up is still pending. I use your system all the time but now it is just showing as pending.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0358",
+  "message": "I do not see a top-up processed.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0359",
+  "message": "I topped up but it didn't complete",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0360",
+  "message": "So, I am a new customer and attempted to top up for the very first time today. It's already been pending for half an hour and doesn't seem to be working. I need to please get this fixed.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0361",
+  "message": "My top up is pending.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0362",
+  "message": "Can you look into my top up please. I made it over three hours ago and yet it's still pending.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0363",
+  "message": "Can you please make my top up go through as soon as possible. I really need the money and it has been pending for an hour already.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0364",
+  "message": "What's going on with the top-up? All it says is pending, pending, pending! I use your service several times a week and have never had a problem before! What's going on here?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0365",
+  "message": "why hasn't my top up gone through yet",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0366",
+  "message": "top-up is slow to process",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0367",
+  "message": "Is there something wrong with your website? I tried topping up my account and it's been close to two hours now and it's still at \"pending\" for some reason. I just joined with you guys and this is the first attempt at this, so maybe I'm wrong, but shouldn't this be instant?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0368",
+  "message": "I topped up by card a while ago and it's still pending, surely it should be done by now?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0369",
+  "message": "Why hasn't my top-up been completed?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0370",
+  "message": "top up did not complete",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0371",
+  "message": "So I just put my top-up into the card and it hasn't changed.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0372",
+  "message": "Why is my top up still pending?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0373",
+  "message": "Your top-up function isn't working, it still says pending even though I know my card works.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0374",
+  "message": "Hi I'm a new customer and tried topping up for the first time today, seems it's not working, the thing shows up as pending since half an hour already! Please fix it!",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0375",
+  "message": "OMG! I'm trying to load my card and it wont top up! I desperately need the money either on my card or in my bank, where is it?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0376",
+  "message": "I'm attempting to top-up my account but it has been pending for an hour.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0377",
+  "message": "Why is my top-up still outstanding?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0378",
+  "message": "What does it mean when my top up is saying still pending?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0379",
+  "message": "My top up hasn't worked, it's been stuck in pending for the last couple hours",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0380",
+  "message": "It doesn't look like the top-up completed.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0381",
+  "message": "Why does my top up say still pending when I used my card to do it.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0382",
+  "message": "Where is the money I topped off with?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0383",
+  "message": "Hi. I'm a new customer to your system and I think something isn't working right - or maybe it is. Maybe you can confirm. I tried to top up today (my first time ever) and it's been stuck at \"pending\" for over an hour now. Is it supposed to do this or is there something wrong in the system?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0384",
+  "message": "Why is my top-up still pending?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0385",
+  "message": "Topping up my card is not working because I believe the top up is pending",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0386",
+  "message": "When will my top-up process?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0387",
+  "message": "The top-up has a definite problem! I regularly use your service and haven't had a problem before, but now the top-up just shows pending. Please tell my why it continues to show pending.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0388",
+  "message": "I tried topping up but my funds seem to be pending. I want to buy something right now, what do I do?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "pending_top_up",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0389",
+  "message": "Do I need to choose GBP to get my salary deposited properly?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "receiving_money",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0390",
+  "message": "Can I use this to receive my salary?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "receiving_money",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0391",
+  "message": "Is it possible for me to get money out in a different currency?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "receiving_money",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0392",
+  "message": "I received my salary in GBP. How do I change this to my currency?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "receiving_money",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0393",
+  "message": "Would I be able to get a refund for something I bought?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "request_refund",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0394",
+  "message": "How do I apply for a refund?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "request_refund",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0395",
+  "message": "How can I process a refund for something I purchased?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "request_refund",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0396",
+  "message": "I need to cancel a purchase I made.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "request_refund",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0397",
+  "message": "There was a canceled payment for my card.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "reverted_card_payment?",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0398",
+  "message": "If my card payment is cancelled, what should I do?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "reverted_card_payment?",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0399",
+  "message": "Someone stopped my payment",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "reverted_card_payment?",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0400",
+  "message": "My card payment was cancelled.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "reverted_card_payment?",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0401",
+  "message": "Can I use any currency to add money?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "supported_cards_and_currencies",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0402",
+  "message": "I need support options, I want to top my card",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "supported_cards_and_currencies",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0403",
+  "message": "What cards and currencies are supported?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "supported_cards_and_currencies",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0404",
+  "message": "If I only have 1 other US card, can you take it?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "supported_cards_and_currencies",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0405",
+  "message": "unhappy with you, how to delete account",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "terminate_account",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0406",
+  "message": "The service of this company sucks, I need to terminate my account.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "terminate_account",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0407",
+  "message": "I am highly unsatisfied with this company and want to delete my account!",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "terminate_account",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0408",
+  "message": "Can you delete my account please?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "terminate_account",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0409",
+  "message": "The app denied my topped up.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0410",
+  "message": "Heyy I tried to top up with my card today but it failed! I just got the couple days before but it has worked last time. What's going on, can you double check please?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0411",
+  "message": "I have a top up that didn't go through. Why?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0412",
+  "message": "So, I tried topping up my card for the today. Unfortunately, it failed. A couple of days back I used it and it works fine. Can you double check and tell me what's going on?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0413",
+  "message": "Why did the app deny my top up?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0414",
+  "message": "please tell me why my top-up failed.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0415",
+  "message": "My top-up isn't working.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0416",
+  "message": "I attempted to top up but the app denied it.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0417",
+  "message": "What reason did my top-up fail for?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0418",
+  "message": "Why didn`t my topup go through?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0419",
+  "message": "How can I check to see if my top-up worked?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0420",
+  "message": "My top up didn't work.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0421",
+  "message": "My top up failed.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0422",
+  "message": "Why would my topup not go through?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0423",
+  "message": "Why caused my top up to not work?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0424",
+  "message": "Why did my top up not work?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0425",
+  "message": "Why was my top-up unsuccessful?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0426",
+  "message": "My funding to my card didn't go through.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0427",
+  "message": "I need to know why my credit card was declined for top up? What is the deal here and why did it not go through?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0428",
+  "message": "I topped up but the app did not accept it.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0429",
+  "message": "The app denied my top-up",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0430",
+  "message": "I think my top up did not work",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0431",
+  "message": "My top up was denied in the app.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0432",
+  "message": "Can you tell me if my pop-up went through?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0433",
+  "message": "can you check why I wasn't able to top up?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0434",
+  "message": "How did my top-up fail?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0435",
+  "message": "My top-up failed, WHY?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0436",
+  "message": "I tried to top up. Why was it denied?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0437",
+  "message": "What's the deal? My card was just denied for top up. Why is it not going through?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0438",
+  "message": "I don't think my top up is working correctly",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0439",
+  "message": "The app won't let me top up my account",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0440",
+  "message": "I'm not sure why my top up request was denied",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0441",
+  "message": "Why can't I top up?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0442",
+  "message": "My top-up has failed.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0443",
+  "message": "Problems with top up",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0444",
+  "message": "I really need money from my card today, but my card is getting declined. Please help!!",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0445",
+  "message": "How do I know if my top up was unsuccessful?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0446",
+  "message": "I'm pretty sure my top up failed. How do I fix this?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0447",
+  "message": "why isnt top up working",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0448",
+  "message": "Can you tell me why my top up didn't work?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_failed",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0449",
+  "message": "My top-up was cancelled; will I receive a refund?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0450",
+  "message": "How do I fix a reverted top up?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0451",
+  "message": "Is it possible to tell if my top up has reverted?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0452",
+  "message": "My top-up showed as complete, but it's no longer there! What's going on here?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0453",
+  "message": "Hi, i don't know what's going on i've just paid for my top up twice by accident can you help me get a refund please.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0454",
+  "message": "It seems my top up is reverted?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0455",
+  "message": "The app wouldn't accept my top up.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0456",
+  "message": "I topped up my account and even though it was confirmed at first, the money isn't there anymore! why did this happen, and where did my money go?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0457",
+  "message": "I believe my money did not go through with my top up, was there a problem on your end?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0458",
+  "message": "My top-up was reverted, why did this happen?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0459",
+  "message": "I put money into my account for the minimum balance but the application didn't accept.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0460",
+  "message": "Can you tell me if my top-up has been cancelled?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0461",
+  "message": "I got topped up but the application reverted it.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0462",
+  "message": "Why would my top up be cancelled?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0463",
+  "message": "There appears to have been a reversion in my top up",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0464",
+  "message": "The application reverted my top-up.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0465",
+  "message": "I think my top-up was cancelled.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0466",
+  "message": "I believed crypto top up with something you offered. This does not seem to be working. The money has been removed from my account though so what's going on?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0467",
+  "message": "I topped up but the app reverted it",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0468",
+  "message": "I went to top up and it is no longer there. Was it sent back?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0469",
+  "message": "What happened to my top-up?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0470",
+  "message": "Can you tell me why my top up was reverted?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0471",
+  "message": "For what reason would a top up be reverted and returned to my account?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0472",
+  "message": "When I topped up, the app reverted my funds.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0473",
+  "message": "What happened to where my top-up was canceled?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0474",
+  "message": "I tryed to make a top-up with cryptocurrency but the payment was referted.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0475",
+  "message": "The app reverted my top off.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0476",
+  "message": "The app reverted my action when I topped up.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0477",
+  "message": "Was my top up reversed?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0478",
+  "message": "I see my top-up was canceled, but why?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0479",
+  "message": "Do you know if my top-up has been cancelled?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0480",
+  "message": "has my top-up has been cancelled",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0481",
+  "message": "My top-up was revoked.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0482",
+  "message": "Causes of top-up cancellation",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0483",
+  "message": "The app reverted what I topped up.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0484",
+  "message": "Has my top up been reverted?",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0485",
+  "message": "Im very upset as my top-up was canceled and I have no idea why.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0486",
+  "message": "My top-up has been cancelled.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0487",
+  "message": "On my last transaction it seem that my top-up was not successful.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0488",
+  "message": "I'd like to know why my top-up was canceled please.",
+  "language": "en",
+  "expected_intent": "deposit_issue",
+  "category": "top_up_reverted",
+  "source": "banking77/test",
+  "expect_article": "A1"
+ },
+ {
+  "id": "B77-0489",
+  "message": "I have a duplicate payment showing up on the app. How do I stop myself being charged for the thing twice?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "transaction_charged_twice",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0490",
+  "message": "Why am I being charged twice fro a restaurant?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "transaction_charged_twice",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0491",
+  "message": "More than one time this week, I have been charged more than once for the same transaction. Please correct the issue and refund the duplicate charges.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "transaction_charged_twice",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0492",
+  "message": "Why would I be charged more than once for the same transaction?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "transaction_charged_twice",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0493",
+  "message": "Is there a reason I was charged a fee to transfer?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "transfer_fee_charged",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0494",
+  "message": "Why were there additional charges when transferring?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "transfer_fee_charged",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0495",
+  "message": "I got charged and extra fee when I transferred money so why was I charged?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "transfer_fee_charged",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0496",
+  "message": "Why am I being charged a fee for transferring money?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "transfer_fee_charged",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0497",
+  "message": "When will a transfer reach my account?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "transfer_timing",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0498",
+  "message": "What would the approximate delivery date be if I transferred something urgently to China?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "transfer_timing",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0499",
+  "message": "Will my transfer immediately show up in my account?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "transfer_timing",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0500",
+  "message": "How long does a transfer take from the point it's sent, to the point it arrives in my account?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "transfer_timing",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0501",
+  "message": "I need to verify my identity",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "verify_my_identity",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0502",
+  "message": "What do you need so I can verify my identity?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "verify_my_identity",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0503",
+  "message": "Is there any documentation needed for the identity check?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "verify_my_identity",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0504",
+  "message": "do I need anything for the identity check?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "verify_my_identity",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0505",
+  "message": "How can I fix a problem where my virtual card is rejected?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "virtual_card_not_working",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0506",
+  "message": "What do I do if my virtual card won't work.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "virtual_card_not_working",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0507",
+  "message": "My disposable virtual card is not working when I try to use it at a point of sale transaction. What do I do now?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "virtual_card_not_working",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0508",
+  "message": "Why was my virtual card declined when attempting to setup automatic billing?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "virtual_card_not_working",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0509",
+  "message": "I would rather the Mastercard.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "visa_or_mastercard",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0510",
+  "message": "How do I select a Mastercard instead of a Visa?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "visa_or_mastercard",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0511",
+  "message": "What do I have to do to get a Visa credit card?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "visa_or_mastercard",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0512",
+  "message": "Am I allowed to use any card to make a payment?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "visa_or_mastercard",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0513",
+  "message": "Can i make transactions before identity verification is complete?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "why_verify_identity",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0514",
+  "message": "What is the purpose for the identity check",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "why_verify_identity",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0515",
+  "message": "I would like to not have to do the identity verification.",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "why_verify_identity",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77-0516",
+  "message": "Do I have to do an identity check?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "why_verify_identity",
+  "source": "banking77/test"
+ }
+]

@@ -1,0 +1,3 @@
+# third-party raw downloads (large; re-download per eval/FINDINGS.md)
+raw/
+__pycache__/

@@ -1,0 +1,1922 @@
+[
+ {
+  "id": "BX-0001",
+  "message": "i dont know how i can cancel purchase #48213",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "cancel_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0002",
+  "message": "could uhelp me cancelin order #48213",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "cancel_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0003",
+  "message": "i nee help to cancel order #48213",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "cancel_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0004",
+  "message": "I need to cancel purchase #48213",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "cancel_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0005",
+  "message": "would it be possible to cancel purchase #48213",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "cancel_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0006",
+  "message": "I no longer want purchase #48213, can you cancel it?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "cancel_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0007",
+  "message": "I want to correct order #48213, will you help me?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "change_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0008",
+  "message": "I have to change some articles of order #48213, help me",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "change_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0009",
+  "message": "I have problems with deleting an item from order #48213",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "change_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0010",
+  "message": "assistance to switch something of order #48213",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "change_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0011",
+  "message": "want assistance switching an item of purchase #48213",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "change_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0012",
+  "message": "how to add some items to order #48213",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "change_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0013",
+  "message": "I want to know more about correcting the delivery address",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "change_shipping_address",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0014",
+  "message": "I try to change the address",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "change_shipping_address",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0015",
+  "message": "can uhelp me to correct my delivery address",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "change_shipping_address",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0016",
+  "message": "there is an error trying to change my address",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "change_shipping_address",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0017",
+  "message": "there are troubles modifying my address",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "change_shipping_address",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0018",
+  "message": "can you tell me about changing the delivery address?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "change_shipping_address",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0019",
+  "message": "I have to see the withdrawal efe",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_cancellation_fee",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0020",
+  "message": "I need to cyeck the withdrawal fee",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_cancellation_fee",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0021",
+  "message": "where to see the cancellation fee",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_cancellation_fee",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0022",
+  "message": "I need to check the early termination fee",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_cancellation_fee",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0023",
+  "message": "help checking the early exit charges",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_cancellation_fee",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0024",
+  "message": "what are the withdrawal charged?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_cancellation_fee",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0025",
+  "message": "I don't know what I have to do to see my bill #00108",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_invoice",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0026",
+  "message": "see invoicefrom Alex",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_invoice",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0027",
+  "message": "i want assistance to find the bikll #00108",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_invoice",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0028",
+  "message": "i have got to check my bills from Alex how to do it",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_invoice",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0029",
+  "message": "is it plssible to locate my invoice from Alex",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_invoice",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0030",
+  "message": "I don't know what I need to do to look forthe invoice #12588",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_invoice",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0031",
+  "message": "how to check what payment payment modalities are allowed",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_payment_methods",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0032",
+  "message": "wana see the allowed payment modalities how can i do it",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_payment_methods",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0033",
+  "message": "can you help me to list the payment modalities?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_payment_methods",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0034",
+  "message": "need assistance seeing ur accepted payment methods",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_payment_methods",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0035",
+  "message": "can you help me seeing the payment medthods?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_payment_methods",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0036",
+  "message": "is it possible to check the allowed paymentmodalities",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_payment_methods",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0037",
+  "message": "I have got to see in which situations can I ask for a refund",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_refund_policy",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0038",
+  "message": "help to see inwhich situations can I ask to be refunded",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_refund_policy",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0039",
+  "message": "check in what situations can I ask for reimbursements",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_refund_policy",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0040",
+  "message": "assistance to see how long reimbursements usually take",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_refund_policy",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0041",
+  "message": "I am trying to see in which cases can I ask for refunds",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_refund_policy",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0042",
+  "message": "see in what situations can I request refunds",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "check_refund_policy",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0043",
+  "message": "where tofile a consumer claim against ur company",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "complaint",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0044",
+  "message": "the experience with you was awful, file a customer complaint",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "complaint",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0045",
+  "message": "i do not know how to file a claim against ur business",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "complaint",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0046",
+  "message": "help filing a reclamation against your business",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "complaint",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0047",
+  "message": "I want help to file a reclamation against your business",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "complaint",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0048",
+  "message": "I have to file a customer claim",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "complaint",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0049",
+  "message": "how can i talk wiht customer service",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "contact_customer_service",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0050",
+  "message": "where do I se what hours I can reach customer assistance?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "contact_customer_service",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0051",
+  "message": "can I see at what time I can contact customer service?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "contact_customer_service",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0052",
+  "message": "how can i see what hours i can reach custimer service",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "contact_customer_service",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0053",
+  "message": "how to check at what time i can call customer service",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "contact_customer_service",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0054",
+  "message": "I want help to get in touch with goddamn customer assistance",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "contact_customer_service",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0055",
+  "message": "i have got to talk with somebody",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "contact_human_agent",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0056",
+  "message": "need help speaking with an agent",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "contact_human_agent",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0057",
+  "message": "help me contacting a fucking human agent",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "contact_human_agent",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0058",
+  "message": "I don't know what I have to do to speak with an asistant",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "contact_human_agent",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0059",
+  "message": "I do not understand you, can you help me to contact someone?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "contact_human_agent",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0060",
+  "message": "can I talk to somebody?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "contact_human_agent",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0061",
+  "message": "opening new premium account",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "create_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0062",
+  "message": "can you help me to create a freemium account?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "create_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0063",
+  "message": "opening new platinum account",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "create_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0064",
+  "message": "wanna open a platinum account",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "create_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0065",
+  "message": "I do not know how I can create a premium account for my daughter",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "create_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0066",
+  "message": "problem with opening a freemium account",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "create_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0067",
+  "message": "i want assistance cancelling an premium account",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "delete_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0068",
+  "message": "how can I find information about premium account deletions?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "delete_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0069",
+  "message": "I don't know how I can delete the freemium account",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "delete_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0070",
+  "message": "I have a problem with the termination of my premium account",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "delete_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0071",
+  "message": "deleting premium account",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "delete_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0072",
+  "message": "information about the deletion of a premium account",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "delete_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0073",
+  "message": "I need to see what shipment options are available, help me",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "delivery_options",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0074",
+  "message": "can I place an order from London?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "delivery_options",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0075",
+  "message": "need help to check the shipment methods",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "delivery_options",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0076",
+  "message": "I don't know what I need to do to see the shipment options",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "delivery_options",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0077",
+  "message": "I want help checking what methods for delivery are there",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "delivery_options",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0078",
+  "message": "I am looking for the delivery options, can you help me?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "delivery_options",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0079",
+  "message": "could I check how long it takes for my product to arrive?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "delivery_period",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0080",
+  "message": "need assistance to see when my item is going to arrive",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "delivery_period",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0081",
+  "message": "I need assistance checking how soon can I expect my delivery",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "delivery_period",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0082",
+  "message": "assistance to check how soon can I expect my purchase",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "delivery_period",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0083",
+  "message": "when is my purchase gonna arrive",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "delivery_period",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0084",
+  "message": "how can I see how soon can I expect my order?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "delivery_period",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0085",
+  "message": "modifying info on pro account",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "edit_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0086",
+  "message": "help to edit the information on my user profile",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "edit_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0087",
+  "message": "I want to update the damn user data, how could I do it?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "edit_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0088",
+  "message": "edit info on premium accunt",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "edit_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0089",
+  "message": "i do not know how i can edit the personal details",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "edit_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0090",
+  "message": "i have to edit the info included on my user can uhelp me",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "edit_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0091",
+  "message": "can ya help me to get my bills from Alex",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "get_invoice",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0092",
+  "message": "I am trying to get my invoice from Alex",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "get_invoice",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0093",
+  "message": "can you help me getting invoice #37777?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "get_invoice",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0094",
+  "message": "I don't know what I need to do to download the bill #00108",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "get_invoice",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0095",
+  "message": "send me invoice #37777",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "get_invoice",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0096",
+  "message": "I want assistance getting the bill from Alex",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "get_invoice",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0097",
+  "message": "I need to receive a refund of my money",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "get_refund",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0098",
+  "message": "how to ask for a rebate of my money",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "get_refund",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0099",
+  "message": "canyou help me get a compensation?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "get_refund",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0100",
+  "message": "where to obtain a restitution of money",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "get_refund",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0101",
+  "message": "i do not know what i have to do to ask for a rebate of money",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "get_refund",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0102",
+  "message": "I don't know how I can get a restitution of money",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "get_refund",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0103",
+  "message": "help me cancelling my newsletter subscription",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "newsletter_subscription",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0104",
+  "message": "I want help cancelling my newsletter subscription",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "newsletter_subscription",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0105",
+  "message": "I need assistance unsubscribing to your fucking newsletter",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "newsletter_subscription",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0106",
+  "message": "I need to sign up to your corporate newsletter, help me",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "newsletter_subscription",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0107",
+  "message": "is it possible to subscribe to the corporate newsletter",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "newsletter_subscription",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0108",
+  "message": "i want help unsubscribing to the company newsletter",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "newsletter_subscription",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0109",
+  "message": "I don't know what I need to do to buy some of your article",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "place_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0110",
+  "message": "I want help odering some articles",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "place_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0111",
+  "message": "I need to purchase some bloody products",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "place_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0112",
+  "message": "need help to order several of ur artcle",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "place_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0113",
+  "message": "how can I order some products?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "place_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0114",
+  "message": "i need assistance toacquire several products",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "place_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0115",
+  "message": "i have problesm with my forgotten pwd",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0116",
+  "message": "I do not know how to restore my user PIN code",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0117",
+  "message": "I want assistance restoring the access key of my profile",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0118",
+  "message": "can you help me to retrieve the password of my account?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0119",
+  "message": "could I retrieve my user account password?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0120",
+  "message": "I need to retrieve my user accountPIN",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0121",
+  "message": "help me retrieve my user account PIN",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0122",
+  "message": "I don't know what I have to do to erset my user account pass",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0123",
+  "message": "how could I find information about lost PIN?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0124",
+  "message": "I am trying to retrieve the access key of my profile",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0125",
+  "message": "what do i need to do to restore my account pin",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0126",
+  "message": "I need assistance recovering my account access key",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0127",
+  "message": "what do I have to do to recover the PIN of my account?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0128",
+  "message": "need assistance recovering the PIN code of my account",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0129",
+  "message": "find information about my passreset",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0130",
+  "message": "help to restore my access key",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0131",
+  "message": "help resetting the pin coder of my profile",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0132",
+  "message": "what do i have to do to recover my profile key",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0133",
+  "message": "wluld you give me information about the key retrieval?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0134",
+  "message": "i have lost my pass what do i need to do to recover it",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0135",
+  "message": "I don't know what I have to do to reset the PIN of my user",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0136",
+  "message": "I am looking for information about a password retrieval",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0137",
+  "message": "how do I restore my user profile pass?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0138",
+  "message": "I cannot reset my damn account PIN code",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0139",
+  "message": "I'm trying to retrieve the password of my profile",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0140",
+  "message": "need to reset the pin of my profile",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0141",
+  "message": "I have problems with the key reset",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0142",
+  "message": "I try to retrieve the PIN code of my account",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0143",
+  "message": "i lost the pass of my user how do i recover it",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0144",
+  "message": "how to reset the apssword of my account",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0145",
+  "message": "want assistance recovering my account PIN code",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0146",
+  "message": "I do not know what to do to retrieve the key of my profile",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0147",
+  "message": "I can't remember my profile key, I need help restoring it",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0148",
+  "message": "help to retrieve the PIN code of my user profile",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0149",
+  "message": "can you help me recover the key of my profile?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0150",
+  "message": "can uhelp me to restore the access key ofmy account",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0151",
+  "message": "i want information about my password retrieval",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0152",
+  "message": "could I recover my key?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0153",
+  "message": "i want help retrieving the pass of my profile",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0154",
+  "message": "I have lost my user account PIN, I need help resetting it",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0155",
+  "message": "what do i have to do to recover my user account key",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0156",
+  "message": "where to recover the pass og my user account",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0157",
+  "message": "someone stole my goddamn account PIN, want help resyoring it",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0158",
+  "message": "I want to retrieve my user account key",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0159",
+  "message": "i want help to reset my user profile pin code",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0160",
+  "message": "I am trying to recover my account access key",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0161",
+  "message": "hve a question about the password recovery",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0162",
+  "message": "I need assistance retrieving the access key of my account",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0163",
+  "message": "assistance restoring the goddamn PIN code of my user account",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0164",
+  "message": "I have to reset my user profile key",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0165",
+  "message": "someone has stolen my PIN code, could you help me reset it?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0166",
+  "message": "idont know how i can recover my account access key",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0167",
+  "message": "I want help to recover the PIN of my user profile",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0168",
+  "message": "restore the password of my user",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0169",
+  "message": "assistance retrieving the goddamn PIN of my account",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0170",
+  "message": "reset the PIN code of my user",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0171",
+  "message": "wany help to reset the access key of my account",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0172",
+  "message": "I cannot retrieve my account key",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0173",
+  "message": "I want to restore my user profkle pwd",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0174",
+  "message": "I can't retrieve my key",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0175",
+  "message": "I have lost my user password, where do I retrieve it?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0176",
+  "message": "someone stole the pin of my user want help restoring it",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0177",
+  "message": "I do not know how to reset my user password",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0178",
+  "message": "I try to retrieve my fucking profile password",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0179",
+  "message": "I need assistance to recover the PIN code of my profile",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0180",
+  "message": "I forgot my damn user PIN, help resetting it",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0181",
+  "message": "where do I retrieve the key of my user profile?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0182",
+  "message": "could I restore the access key of my profile?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0183",
+  "message": "how to recover my bloody access key?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0184",
+  "message": "recover the PIN code of my account",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0185",
+  "message": "find information about my lost PIN",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0186",
+  "message": "I don't know how I can reset my user PIN code",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0187",
+  "message": "how do I retrieve the access key of my user account?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0188",
+  "message": "I'm trying to reset the pwd of my user",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0189",
+  "message": "want assistance restoring my profile PIN",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0190",
+  "message": "I need to reset the password of my user profile",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0191",
+  "message": "I can't remember my bloody user key, how to reset it?",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0192",
+  "message": "i dont know what i need to do to recover my account password",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0193",
+  "message": "have a question about my pin code recovery",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0194",
+  "message": "I have got to recover my user pwd",
+  "language": "en",
+  "expected_intent": "password_reset",
+  "category": "recover_password",
+  "source": "bitext-customer-support-v11",
+  "expect_article": "A2"
+ },
+ {
+  "id": "BX-0195",
+  "message": "I want to inform of a registration error, how can I do it?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "registration_problems",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0196",
+  "message": "how to inform of an issue wsith a sign-up?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "registration_problems",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0197",
+  "message": "help me notifying of signup errors",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "registration_problems",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0198",
+  "message": "I need assistance informing of a problem with sign-up",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "registration_problems",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0199",
+  "message": "report issues creating user",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "registration_problems",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0200",
+  "message": "could ya help me notifying of problems with a registration",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "registration_problems",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0201",
+  "message": "need help submitting feedback for yor services",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "review",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0202",
+  "message": "Iwant assistance to leave my feedback",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "review",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0203",
+  "message": "i want help to send feedback for ur services",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "review",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0204",
+  "message": "I need to write a review about a service, how to do it?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "review",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0205",
+  "message": "ho can I send my feedback about your company?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "review",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0206",
+  "message": "need to send some feedback about ur products",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "review",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0207",
+  "message": "there is a trouble setting up a delivery address",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "set_up_shipping_address",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0208",
+  "message": "I have to enter a new shipping address, how do I do it?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "set_up_shipping_address",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0209",
+  "message": "problems submitting the shipping address",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "set_up_shipping_address",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0210",
+  "message": "problems setting up the shipping address",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "set_up_shipping_address",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0211",
+  "message": "I'm trying to submit a different delivery address",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "set_up_shipping_address",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0212",
+  "message": "i have got to set up my secondary deliver address",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "set_up_shipping_address",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0213",
+  "message": "switching to pro account",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "switch_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0214",
+  "message": "I don't know what I have to do to wsitch to the premium account",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "switch_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0215",
+  "message": "assistance using the standard profile",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "switch_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0216",
+  "message": "I need assistance to use the premium account",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "switch_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0217",
+  "message": "how to change to the standard account?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "switch_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0218",
+  "message": "i want help changing to the gold account",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "switch_account",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0219",
+  "message": "see ETA ob order #48213",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "track_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0220",
+  "message": "order 732201349959current status",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "track_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0221",
+  "message": "want help seeing purchase #48213 status",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "track_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0222",
+  "message": "I have to see the ETA of order #48213, how to do it?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "track_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0223",
+  "message": "can ushow me the ETA of purchase #48213",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "track_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0224",
+  "message": "i cannot see the current staus of purchase #48213",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "track_order",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0225",
+  "message": "assistance to see the refund current status",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "track_refund",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0226",
+  "message": "assistance checking the restitution current status",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "track_refund",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0227",
+  "message": "I cannot check if there are any news on my rebate",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "track_refund",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0228",
+  "message": "I have got to see my compensation current status",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "track_refund",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0229",
+  "message": "I expect a refund of $$40, has it been processed already?",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "track_refund",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BX-0230",
+  "message": "help me check if there is anything wrong with my refund",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "track_refund",
+  "source": "bitext-customer-support-v11"
+ }
+]

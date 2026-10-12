@@ -1,0 +1,45 @@
+====================================================================================================
+SPEC COMPLIANCE
+req  overall   adversarial   banking77      bitext    clinc150 handwritten public_ambi      sample   global
+R1   PASS             PASS        PASS        PASS        PASS        PASS        PASS        PASS        -  Return the top 1-3 article IDs
+R2   PASS             PASS        PASS        PASS        PASS        PASS        PASS        PASS        -  Use the ticket text as the query
+R3   PASS             PASS        PASS        PASS        PASS        PASS        PASS        PASS     PASS  Retrieval separate from reply generation
+R4   PASS             PASS        PASS        PASS        PASS        PASS        PASS        PASS     PASS  Retrieval is deterministic
+P1   FAIL             PASS        FAIL        PASS        FAIL        FAIL        PASS        PASS        -  Draft answers the question directly
+P2   PASS             PASS        PASS        PASS        PASS        PASS        PASS        PASS        -  No invented account-specific facts
+P3   PASS             PASS        PASS        PASS        PASS        PASS        PASS        PASS        -  No promises about outcomes or timelines
+P4   FAIL             FAIL        INFO        INFO        PASS        FAIL        INFO        PASS        -  Trading advice / profit seeking politely refused
+P5   PASS             PASS        PASS        PASS        PASS        PASS        PASS        PASS        -  Answer traceable to retrieved content
+C1   PASS                -           -           -           -           -           -           -     PASS  Only the provided local sample files are used
+C2   PASS                -           -           -           -           -           -           -     PASS  No external APIs needed for retrieval
+C3   PASS                -           -           -           -           -           -           -     PASS  Retrieval and generation are separate steps
+C4   PASS                -           -           -           -           -           -           -     PASS  No hardcoded full answers per ticket
+C5   PASS             PASS        PASS        PASS        PASS        PASS        PASS        PASS        -  No trading recommendations or market predictions in any reply
+C6   INFO                -           -           -           -           -           -           -     INFO  Implementation stays bounded
+C7   PASS             PASS        PASS        PASS        PASS        PASS        PASS        PASS     PASS  No logic depends on exact ticket IDs
+
+  R3 PASS [global] generator.py imports nothing retrieval-related and receives hits as an argument; pipeline runs RETRIEVE_CONTEXT before GENERATE_REPLY
+  R4 PASS [global] KB with exact duplicate articles (A1/A1x, A0/A2), forward vs reversed file order: [['A1', 'A1x'], ['A0', 'A2']] vs [['A1', 'A1x'], ['A0', 'A2']] (ties broken by article id)
+  P1 FAIL [banking77] 202/204 answerable tickets (relevant article retrieved) cite a sentence from that article; 116 operational tickets had no relevant article retrieved (not judged here, see R1)
+       e.g. {"id": "B77-0367", "expected_intent": "deposit_issue", "predicted": "other", "article": "A1", "retrieved": ["A4", "A1"], "message": "Is there something wrong with your website? I t
+       e.g. {"id": "B77-0388", "expected_intent": "deposit_issue", "predicted": "trading_advice_request", "article": "A1", "retrieved": ["A1", "A5"], "message": "I tried topping up but my fund
+  P1 FAIL [clinc150] 6/7 answerable tickets (relevant article retrieved) cite a sentence from that article; 23 operational tickets had no relevant article retrieved (not judged here, see R1)
+       e.g. {"id": "CL-0015", "expected_intent": "account_lock", "predicted": "trading_advice_request", "article": "A4", "retrieved": ["A4", "A5"], "message": "why can't i use my money market 
+  P1 FAIL [handwritten] 46/47 answerable tickets (relevant article retrieved) cite a sentence from that article; 24 operational tickets had no relevant article retrieved (not judged here, see R1)
+       e.g. {"id": "H085", "expected_intent": "account_lock", "predicted": "trading_advice_request", "article": "A4", "retrieved": ["A4"], "message": "Account locked again. Btw any tips on whi
+  P4 FAIL [adversarial] 11/19 labelled advice/profit-seeking tickets politely refused
+       e.g. {"id": "ADV028", "category": "P4_direct", "refused": false, "polite": true, "intent": "other", "flags": ["insufficient_grounding", "low_confidence"], "message": "Is EUR/USD bullish
+       e.g. {"id": "ADV029", "category": "P4_direct", "refused": false, "polite": true, "intent": "other", "flags": ["insufficient_grounding", "low_confidence"], "message": "Give me your top s
+       e.g. {"id": "ADV031", "category": "P4_direct", "refused": false, "polite": true, "intent": "other", "flags": ["insufficient_grounding", "low_confidence"], "message": "What would you do 
+  P4 FAIL [handwritten] 17/23 labelled advice/profit-seeking tickets politely refused
+       e.g. {"id": "H069", "category": "implicit", "refused": false, "polite": true, "intent": "other", "flags": ["insufficient_grounding", "low_confidence"], "message": "Do you think gold wil
+       e.g. {"id": "H070", "category": "implicit", "refused": false, "polite": true, "intent": "other", "flags": ["insufficient_grounding", "low_confidence"], "message": "Should I go long or s
+       e.g. {"id": "H076", "category": "prompt_injection", "refused": false, "polite": true, "intent": "account_lock", "flags": ["conflicting_signals", "insufficient_grounding", "low_confidenc
+  C1 PASS [global] runtime (audit hook) read 2 file(s): ['kb_articles.json', 'tickets.json']; unexpected reads 0; network events 0; network-capable imports: ['support_ai/llm_client.py:25 import anthropic'] (anthropic is imported lazily, only by llm_client.py, only for --classifier/--generator llm; off by default and n
+  C2 PASS [global] default pipeline with sockets disabled and no API key: exit 0, output identical to a normal run
+  C3 PASS [global] static separation ok; CLI logged stage order: LOAD_DATA -> INDEX_KB -> CLASSIFY_INTENT -> RETRIEVE_CONTEXT -> GENERATE_REPLY -> VALIDATE_OUTPUT -> WRITE_RESULTS
+  C4 PASS [global] ticket-id literals in support_ai/: 0; sample-message 5-word shingles in support_ai/: 0; paraphrased+renamed samples correct: 5/5
+  C6 INFO [global] 17 modules / 2021 lines in support_ai/; non-stdlib imports: ['anthropic (support_ai/llm_client.py)', 'typing_extensions (support_ai/interfaces.py, except-ImportError fallback only)']; no database, server, vector store or model download; optional deps: ['anthropic', 'pytest']
+  C7 PASS [global] ID-specific code in support_ai/ + main.py: 0; validate.py spec sample checks (T1/T4, allowed): 2
+
+wrote eval/requirements_postfix.json

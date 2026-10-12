@@ -1,0 +1,2236 @@
+[
+ {
+  "id": "CL-0001",
+  "message": "will we have to make reservations for roca",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "accept_reservations",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0002",
+  "message": "why is my bank account locked",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0003",
+  "message": "how do i unlock my bank account",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0004",
+  "message": "can you unlock my bank account",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0005",
+  "message": "how did my bank account get frozen",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0006",
+  "message": "can you help me unlock my bank account",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0007",
+  "message": "call my bank and ask them why my account is frozen",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0008",
+  "message": "check with my bank to see why my account is frozen",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0009",
+  "message": "do you know why my bank account is frozen",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0010",
+  "message": "why did my bank place a hold on my bank account",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0011",
+  "message": "are there any problems with my bank account",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0012",
+  "message": "did someone who is unauthorized try to get into my bank account",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0013",
+  "message": "how can i unfreeze my bank account",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0014",
+  "message": "why is there a stop on my deposit account",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0015",
+  "message": "why can't i use my money market account",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0016",
+  "message": "why is there a delay on my checking account",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0017",
+  "message": "why is my checking account not working",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0018",
+  "message": "what could cause a hold on my savings account",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0019",
+  "message": "what caused a hold on my us bank account",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0020",
+  "message": "can you check and see why us bank put a hold on my account",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0021",
+  "message": "why does us bank have a hold on my account",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0022",
+  "message": "reasons that us bank would place a hold on my account",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0023",
+  "message": "check to see why us bank placed a hold on my account",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0024",
+  "message": "is there a problem with my account, it appears to be blocked",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0025",
+  "message": "what is up with my account, why is it blocked",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0026",
+  "message": "there seems to be an issue with my account",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0027",
+  "message": "can you help me unblock my account",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0028",
+  "message": "can you check what the problem with my account is, it seems to b e blocked",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0029",
+  "message": "is there a reason you put a hold on my chase account",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0030",
+  "message": "why can't i access my chase account",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0031",
+  "message": "how come my chase account has a hold on it",
+  "language": "en",
+  "expected_intent": "account_lock",
+  "category": "account_blocked",
+  "source": "clinc150/test",
+  "expect_article": "A4"
+ },
+ {
+  "id": "CL-0032",
+  "message": "i want an alarm for 6 am",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "alarm",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0033",
+  "message": "has my mastercard application been processed",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "application_status",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0034",
+  "message": "what's my credit card's annual percentage rate",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "apr",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0035",
+  "message": "can you tell me if your a bot",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "are_you_a_bot",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0036",
+  "message": "do i have enough in my wells fargo account to get some nike's",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "balance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0037",
+  "message": "what is the cost of my rent and water bills",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "bill_balance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0038",
+  "message": "what day of the month do i have to pay my mortgage",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "bill_due",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0039",
+  "message": "book me a flight from midway to jfk for less than 200 dollars",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "book_flight",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0040",
+  "message": "i would like to book a place to stay in phoenix from the 5th to the 9th of march",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "book_hotel",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0041",
+  "message": "what is 25% of $54,788",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "calculator",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0042",
+  "message": "what events do i have going on on march 11th",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "calendar",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0043",
+  "message": "take the doctor appointment off my calendar please",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "calendar_update",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0044",
+  "message": "how much is alorie intake",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "calories",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0045",
+  "message": "be quiet",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "cancel",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0046",
+  "message": "i am not in need of my reservation anymore",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "cancel_reservation",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0047",
+  "message": "siri, book a car rental to the poconos today right now",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "car_rental",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0048",
+  "message": "what is the carry-on policy for flights on american airlines",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "carry_on",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0049",
+  "message": "would you please switch to the male voice",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "change_accent",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0050",
+  "message": "can i call you james instead",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "change_ai_name",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0051",
+  "message": "i am going to speak english now",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "change_language",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0052",
+  "message": "how do i make you talk faster",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "change_speed",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0053",
+  "message": "please start calling me bob",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "change_user_name",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0054",
+  "message": "can you turn up the volume for your speaker",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "change_volume",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0055",
+  "message": "confirm my reservation for joe at hoss's",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "confirm_reservation",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0056",
+  "message": "how long should i cook my turkey",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "cook_time",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0057",
+  "message": "is there a substantial credit limit on my visa",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "credit_limit",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0058",
+  "message": "can you increase my credit limit to $1000",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "credit_limit_change",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0059",
+  "message": "i'd like you to check on my credit score",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "credit_score",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0060",
+  "message": "find my current location",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "current_location",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0061",
+  "message": "my dog swallowed my credit card and i need a new one",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "damaged_card",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0062",
+  "message": "please tell me what today is",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "date",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0063",
+  "message": "what is the meaning of incandescent",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "definition",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0064",
+  "message": "how do i get to the airport by foot",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "directions",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0065",
+  "message": "which way do we go and how long will it take to get to the sears tower in chicago",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "distance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0066",
+  "message": "what kinds of pets do you own",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "do_you_have_pets",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0067",
+  "message": "can you tell me what 100 british pounds equals in us dollars",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "exchange_rate",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0068",
+  "message": "can you tell me what the date of expiry for my visa card is",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "expiration_date",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0069",
+  "message": "can you help me locate my phone, please",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "find_phone",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0070",
+  "message": "i need to know the status of my american airlines flight",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "flight_status",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0071",
+  "message": "ai, flip a coin for me",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "flip_coin",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0072",
+  "message": "milk can stay in my fridge for how long",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "food_last",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0073",
+  "message": "what is the interesting trivia about human bodies",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "fun_fact",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0074",
+  "message": "how's my gasoline how much do i have left",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "gas",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0075",
+  "message": "is there a certain kind of fuel needed",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "gas_type",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0076",
+  "message": "i enjoyed talking to you, bye",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "goodbye",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0077",
+  "message": "it is good to see you",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "greeting",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0078",
+  "message": "is cheesecake factory busy right now",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "how_busy",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0079",
+  "message": "may i ask your age",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "how_old_are_you",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0080",
+  "message": "how can i increase my credit score",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "improve_credit_score",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0081",
+  "message": "what will i get paid this year",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "income",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0082",
+  "message": "can i substitute butter for oil",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "ingredient_substitution",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0083",
+  "message": "let me know what ingredients i need to make pasta",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "ingredients_list",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0084",
+  "message": "tell me my current health plan",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "insurance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0085",
+  "message": "i need to sign up for a new allstate plan",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "insurance_change",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0086",
+  "message": "what interest rate am i getting from nfcu",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "interest_rate",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0087",
+  "message": "do i get charged extra for using my card in portland",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "international_fees",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0088",
+  "message": "should i apply for a visa if i am traveling to mexico",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "international_visa",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0089",
+  "message": "what do i need to do to get my car jump started",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "jump_start",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0090",
+  "message": "what day did i last take my car in",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "last_maintenance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0091",
+  "message": "i am a bit panicked because my luggage seems to have gone missing",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "lost_luggage",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0092",
+  "message": "can you call alexa",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "make_call",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0093",
+  "message": "my answer would be maybe",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "maybe",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0094",
+  "message": "i need a good italian dish",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "meal_suggestion",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0095",
+  "message": "what do you know about the meaning of life",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "meaning_of_life",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0096",
+  "message": "how many liters are in 1 gallon",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "measurement_conversion",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0097",
+  "message": "is the meeting with lisa today",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "meeting_schedule",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0098",
+  "message": "what is my minimum verizon bill payment",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "min_payment",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0099",
+  "message": "tell me: car gas mileage",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "mpg",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0100",
+  "message": "can i apply for a visa card",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "new_card",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0101",
+  "message": "are there any holidays coming and when",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "next_holiday",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0102",
+  "message": "can we move onto the next song",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "next_song",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0103",
+  "message": "it is false",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "no",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0104",
+  "message": "what's the nutrition info for a pound of chicken",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "nutrition_info",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0105",
+  "message": "can you change the oil, with what and how",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oil_change_how",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0106",
+  "message": "how long until my next oil change",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oil_change_when",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0107",
+  "message": "can you place an order for the olive oil i just finished",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "order",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0108",
+  "message": "could i get some more checkbooks sent to me, please",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "order_checks",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0109",
+  "message": "is my order on its way or what's going on",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "order_status",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0110",
+  "message": "my electric bill should be paid today",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "pay_bill",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0111",
+  "message": "when do i get my next pay check",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "payday",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0112",
+  "message": "put on some metallica music",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "play_music",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0113",
+  "message": "will i need a plug converter when i visit costa rica",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "plug_type",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0114",
+  "message": "what are the amount of vacation days i have",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "pto_balance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0115",
+  "message": "can i put in a pto request for december 25th to january 1st",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "pto_request",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0116",
+  "message": "did the manager approve my vacation yet",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "pto_request_status",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0117",
+  "message": "so how many days did i take off sir",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "pto_used",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0118",
+  "message": "how do i get started making homemade pizza dough",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "recipe",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0119",
+  "message": "can i redeem my points for flights",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "redeem_rewards",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0120",
+  "message": "\"which things are wanted to remember",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "reminder",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0121",
+  "message": "set up a reminder so i don't forget the baby shower this weekend",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "reminder_update",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0122",
+  "message": "could you repeat that",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "repeat",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0123",
+  "message": "let me know the wait on a replacement credit card",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "replacement_card_duration",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0124",
+  "message": "i seem to have a purchase that i didn't make from olive garden on my account",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "report_fraud",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0125",
+  "message": "how do i report the card as lost",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "report_lost_card",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0126",
+  "message": "can you reset your factory settings",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "reset_settings",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0127",
+  "message": "the table should be reserved at 8pm at tropicana using martins name and it should be for 5 people",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "restaurant_reservation",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0128",
+  "message": "are the reviews for ned's good",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "restaurant_reviews",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0129",
+  "message": "please give me the name of a few good options for places to eat dinner tonight",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "restaurant_suggestion",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0130",
+  "message": "what is the updated points that i earned with synovus card",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "rewards_balance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0131",
+  "message": "roll a fourteen sided dice exactly",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "roll_dice",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0132",
+  "message": "help me to transfer my 401k",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "rollover_401k",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0133",
+  "message": "where can i find routing number for pnc",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "routing",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0134",
+  "message": "should i call a car maintenance",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "schedule_maintenance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0135",
+  "message": "reserve a meeting room for 5pm on friday",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "schedule_meeting",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0136",
+  "message": "share my location to susan",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "share_location",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0137",
+  "message": "what's on my to-buy list",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "shopping_list",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0138",
+  "message": "i'd like to get soda while i'm out; add it to my shopping list",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "shopping_list_update",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0139",
+  "message": "please turn the lights down low",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "smart_home",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0140",
+  "message": "please tell me how to spell the word coup",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "spelling",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0141",
+  "message": "tell me how much money i've spent on fast food in the past week",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "spending_history",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0142",
+  "message": "can you sync up with my phone",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "sync_device",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0143",
+  "message": "whats the total of my taxes",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "taxes",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0144",
+  "message": "do you know any jokes",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "tell_joke",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0145",
+  "message": "text steve and tell him i am running late",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "text",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0146",
+  "message": "ai is a helpful item to have in my home, thank you",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "thank_you",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0147",
+  "message": "what is the time in the usa",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "time",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0148",
+  "message": "start the timer",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "timer",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0149",
+  "message": "what is texas's timezone",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "timezone",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0150",
+  "message": "when would you change my tires",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "tire_change",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0151",
+  "message": "is my tire pressure high",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "tire_pressure",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0152",
+  "message": "did i add \"cleaning the foyer\" to my todo list yet",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "todo_list",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0153",
+  "message": "remove all items from my to do list",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "todo_list_update",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0154",
+  "message": "can you give me a traffic update for driving routes nearest ocean city, new jersey from philadelphia",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "traffic",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0155",
+  "message": "show my transactions",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "transactions",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0156",
+  "message": "how would i say how are you today if i were mexican",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "translate",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0157",
+  "message": "is it safe to go to north korea",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "travel_alert",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0158",
+  "message": "i will be traveling to lima alert my bank",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "travel_notification",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0159",
+  "message": "find out the best tourist attractions to visit in moscow",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "travel_suggestion",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0160",
+  "message": "contact uber and have them pick me up",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "uber",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0161",
+  "message": "i need this song on my meditation playlist",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "update_playlist",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0162",
+  "message": "what's the name you use for me",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "user_name",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0163",
+  "message": "do i need vaccinations if i go this country",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "vaccines",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0164",
+  "message": "can you trll me where to get my w2",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "w2",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0165",
+  "message": "give weather update now",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "weather",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0166",
+  "message": "what are some of your hobbies",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "what_are_your_hobbies",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0167",
+  "message": "what subjects or areas are you familiar with",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "what_can_i_ask_you",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0168",
+  "message": "what do you like to be called",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "what_is_your_name",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0169",
+  "message": "can you identify this song that's playing",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "what_song",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0170",
+  "message": "are you from here or somewhere else originally",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "where_are_you_from",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0171",
+  "message": "change audio to whisper mode",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "whisper_mode",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0172",
+  "message": "what company are you employed by",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "who_do_you_work_for",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0173",
+  "message": "what is the name of the person who made you",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "who_made_you",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0174",
+  "message": "that's right",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "yes",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0175",
+  "message": "make a list of stocks that would be good to invest in to start making money",
+  "language": "en",
+  "expected_intent": "trading_advice_request",
+  "category": "oos(relabelled)",
+  "source": "clinc150/test",
+  "expect_flags": [
+   "advice_request"
+  ],
+  "expect_article": "A5"
+ },
+ {
+  "id": "CL-0176",
+  "message": "i have a super runny nose and want to find a doctor",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0177",
+  "message": "how do i get rid of sore throat at home",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0178",
+  "message": "when was albert einstein born",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0179",
+  "message": "find out how long a cold should last before i call a doctor",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0180",
+  "message": "how many books are in piers anthony virtual mode series",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0181",
+  "message": "tell me where to go to get my son enrolled in public kindergarten",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0182",
+  "message": "please activate a wireless hotspot so i can use the internet",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0183",
+  "message": "i want to install new tiles in my kitchen",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0184",
+  "message": "have you seen the remote",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0185",
+  "message": "order me a book of stamps and envelopes",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0186",
+  "message": "what's a good gift to get for your grandparents",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0187",
+  "message": "remind me what my weight loss goals are",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0188",
+  "message": "who are the nominees for best picture this year",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0189",
+  "message": "which element on the periodic table is k",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0190",
+  "message": "put words on the paper about what you want",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0191",
+  "message": "whats the best rated lipstick",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0192",
+  "message": "according to my fitness tracker, how many push ups have i done today",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0193",
+  "message": "what kind of camera should i buy",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0194",
+  "message": "give me information about the element carbon and its reactions with hydrogen",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0195",
+  "message": "is espn covering the golden state warriors game",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0196",
+  "message": "what is the cashback rate for my credit card",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0197",
+  "message": "please take all my money out of my checking account and close the account",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0198",
+  "message": "what is the account number to the internet service i have",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0199",
+  "message": "see if there is a recipe to make a casserole without any dairy",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0200",
+  "message": "search up the cast in the walking dead",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0201",
+  "message": "how do i skip all of the advertisements",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0202",
+  "message": "how is my driving",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0203",
+  "message": "make a list of the top 100 famous quotes",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0204",
+  "message": "fun gift ideas to give to grandparents",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0205",
+  "message": "display the song lyrics for me",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0206",
+  "message": "print out the photos i took today",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0207",
+  "message": "i need you to order a new pair of eyeglasses for me",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0208",
+  "message": "can you find the answer to number 26 in this algebra two textbook",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0209",
+  "message": "where's my buddy steve right this second",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0210",
+  "message": "how long would it take you to die of thirst in the sahara desert",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0211",
+  "message": "what are some good games for my android phone",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0212",
+  "message": "how to take care of the sick",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0213",
+  "message": "is gambling legal in my state",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0214",
+  "message": "how do i change my windshield wipers",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0215",
+  "message": "how many push-ups do i need to do to get ripped",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0216",
+  "message": "fill out the paperwork for tonys new daycare center",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0217",
+  "message": "deny incoming phone call",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0218",
+  "message": "how much is it to get more data on my phone plan",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0219",
+  "message": "has the school my kids go to been in the news for any reason",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0220",
+  "message": "can my grace period be extended any possible way",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0221",
+  "message": "generate a list of the past 10 judge executives",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0222",
+  "message": "what is the best way for dealing with the airport",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0223",
+  "message": "declare a variable named \"golf\"",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0224",
+  "message": "what is the lifespan of a border collie",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0225",
+  "message": "what's the latest vc funded company",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0226",
+  "message": "where did i last place my remote",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0227",
+  "message": "how much is my car worth used",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0228",
+  "message": "i need tips on how to overcome insomnia",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0229",
+  "message": "what should you do if you can't be bothered to get out of bed",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0230",
+  "message": "find me a good band instructor or two to compare in my area",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0231",
+  "message": "does dhl deliver to my address",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0232",
+  "message": "what do i put on my feet",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0233",
+  "message": "give me a recommendation for a local landscaper",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0234",
+  "message": "are there any messages",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0235",
+  "message": "who is jane goodall",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0236",
+  "message": "add mary to my phone plan, please",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0237",
+  "message": "tell me what the best shampoo is for someone with dry scalp",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0238",
+  "message": "how many items are in a bakers dozen",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0239",
+  "message": "from the second of the left ,the pink one",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0240",
+  "message": "what stores are in the local mall",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0241",
+  "message": "what happened with the summit between trump and jong",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0242",
+  "message": "locate jenny at her present position",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0243",
+  "message": "who is the best architecture",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0244",
+  "message": "how much should i tip on this bill",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0245",
+  "message": "adjust the contrast of the black and white photos",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0246",
+  "message": "what's my budget for today's shopping trip",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0247",
+  "message": "how can i make my living room appear to be bigger than it is",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0248",
+  "message": "how can i get a better rate on my card",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0249",
+  "message": "what does the average cost of an engagement ring",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0250",
+  "message": "i want to find a new car under $25000",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0251",
+  "message": "was the god osiris a titan or an old god",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0252",
+  "message": "instruct a list of all the brands of cereal manufactured by kelloggs",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0253",
+  "message": "what is the warranty on my microwave",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0254",
+  "message": "find out what the maximum memory size is that i can buy in a dvd",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0255",
+  "message": "why is the sky blue",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0256",
+  "message": "what films are in the running for best song at this year's oscars",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0257",
+  "message": "how much does gun ammunition cost",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0258",
+  "message": "so, hang out around this house often",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0259",
+  "message": "tell me how to perform cpr",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0260",
+  "message": "what is the safest model of airplane to fly in",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0261",
+  "message": "how many keys does a xylophone have",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0262",
+  "message": "what makes pi so mathematically important",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0263",
+  "message": "find a good toy to give a 5 year old boy that costs less than $40",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0264",
+  "message": "what is the deadline to register at university of georgia",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0265",
+  "message": "what year was the first airplane built in",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0266",
+  "message": "is there a fork in the road sign at main & 1st avenue",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0267",
+  "message": "tell me how to refinish a wooden desk",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0268",
+  "message": "make a chart of all the tennis scores from this year",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0269",
+  "message": "do they speak english in australia",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0270",
+  "message": "how fast am i going",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0271",
+  "message": "give me an energy usage breakdown for march",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0272",
+  "message": "how many voicemail messages do i have",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0273",
+  "message": "am i currently connected to wifi",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0274",
+  "message": "can you please start the avatar movie for me",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CL-0275",
+  "message": "what size space suit should you get based on your girth",
+  "language": "en",
+  "expected_intent": "other",
+  "category": "oos",
+  "source": "clinc150/test"
+ }
+]

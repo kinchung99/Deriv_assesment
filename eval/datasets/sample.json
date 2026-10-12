@@ -1,0 +1,51 @@
+[
+ {
+  "id": "T1",
+  "message": "I deposited by bank card two hours ago but my balance still shows zero. What should I check?",
+  "language": "en",
+  "category": "sample",
+  "source": "tickets.json",
+  "expected_intent": "deposit_issue",
+  "expect_article": "A1"
+ },
+ {
+  "id": "T2",
+  "message": "I forgot my password and I am not receiving the reset email.",
+  "language": "en",
+  "category": "sample",
+  "source": "tickets.json",
+  "expected_intent": "password_reset",
+  "expect_article": "A2"
+ },
+ {
+  "id": "T3",
+  "message": "Why was my withdrawal declined after verification?",
+  "language": "en",
+  "category": "sample",
+  "source": "tickets.json",
+  "expected_intent": "withdrawal_issue",
+  "expect_article": "A3",
+  "expect_escalation": true
+ },
+ {
+  "id": "T4",
+  "message": "Can you tell me which asset will go up today so I can make profit?",
+  "language": "en",
+  "category": "sample",
+  "source": "tickets.json",
+  "expected_intent": "trading_advice_request",
+  "expect_article": "A5",
+  "expect_flags": [
+   "advice_request"
+  ]
+ },
+ {
+  "id": "T5",
+  "message": "My account was locked after too many login attempts. What do I do now?",
+  "language": "en",
+  "category": "sample",
+  "source": "tickets.json",
+  "expected_intent": "account_lock",
+  "expect_article": "A4"
+ }
+]

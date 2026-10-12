@@ -1,0 +1,1074 @@
+[
+ {
+  "id": "B77A-001",
+  "message": "Will it automatically top-up if there isn't much money left?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "automatic_top_up",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-002",
+  "message": "Do you have an auto top-up option?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "automatic_top_up",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-003",
+  "message": "I just activated auto top-up, but it is not letting me enable it. Why not?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "automatic_top_up",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-004",
+  "message": "If I will be traveling, is there a way to auto top-up my card on certain days?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "automatic_top_up",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-005",
+  "message": "What is this charge on my account for a cash withdrawl?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "cash_withdrawal_charge",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-006",
+  "message": "I have never been charged a fee for cash withdrawal before. When did that change?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "cash_withdrawal_charge",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-007",
+  "message": "Why am I being charged when I withdraw cash?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "cash_withdrawal_charge",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-008",
+  "message": "An ATM fee was attached to my recent withdrawal.",
+  "language": "en",
+  "expected_intent": null,
+  "category": "cash_withdrawal_charge",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-009",
+  "message": "There is an error, the app says I made an ATM withdrawal and I didn't.",
+  "language": "en",
+  "expected_intent": null,
+  "category": "cash_withdrawal_not_recognised",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-010",
+  "message": "I didn't get cash from an ATM, but according to the app a transaction was made when i didn't make it.",
+  "language": "en",
+  "expected_intent": null,
+  "category": "cash_withdrawal_not_recognised",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-011",
+  "message": "I am seeing in the App a some cash withdrawal that its not mine",
+  "language": "en",
+  "expected_intent": null,
+  "category": "cash_withdrawal_not_recognised",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-012",
+  "message": "There is a cash withdrawal transaction that I am unsure of.",
+  "language": "en",
+  "expected_intent": null,
+  "category": "cash_withdrawal_not_recognised",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-013",
+  "message": "Please tell me which cash machines will allow me to change my pin.",
+  "language": "en",
+  "expected_intent": null,
+  "category": "change_pin",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-014",
+  "message": "Where can I find instructions to change my PIN?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "change_pin",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-015",
+  "message": "If I am overseas, how do I change my pin?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "change_pin",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-016",
+  "message": "I am in Austria right now. I need to change my PIN ASAP, so can I still do this from here?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "change_pin",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-017",
+  "message": "You keep declining my transfers? It's always been working really well so far, but when I tried to buy something just now the card got declined. I tried couple times already but same thing.",
+  "language": "en",
+  "expected_intent": null,
+  "category": "declined_transfer",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-018",
+  "message": "Why do you keep declining my transfers?it was always been working really well so far but when I tried to buy something just now the card got declined . I tried couple of times already but same thing is happening.",
+  "language": "en",
+  "expected_intent": null,
+  "category": "declined_transfer",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-019",
+  "message": "For what reason was my transfer declined?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "declined_transfer",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-020",
+  "message": "Why did a transfer get declined?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "declined_transfer",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-021",
+  "message": "My transfer keeps failing and I just want to transfer the money can you please make it work?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "failed_transfer",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-022",
+  "message": "The transfer keeps failing , I tried to transfer some money to friends this morning but it keeps getting rejected for some reason, Would you please check the issue ?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "failed_transfer",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-023",
+  "message": "Please help me as i am continuously facing the issue in transferring money to my friends, as all my transactions are getting failed.",
+  "language": "en",
+  "expected_intent": null,
+  "category": "failed_transfer",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-024",
+  "message": "I transferred my funds, why did it not go through?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "failed_transfer",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-025",
+  "message": "Why is a money transfer not showing?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "pending_transfer",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-026",
+  "message": "Pending transfer?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "pending_transfer",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-027",
+  "message": "How long does a transfer stay pending?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "pending_transfer",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-028",
+  "message": "When will the transfer be completed?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "pending_transfer",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-029",
+  "message": "My card's frozen, what can I do?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "pin_blocked",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-030",
+  "message": "I'v exhausted all the of times I can try my PIN",
+  "language": "en",
+  "expected_intent": null,
+  "category": "pin_blocked",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-031",
+  "message": "I used the wrong ping too many times and now the account is blocked. How do I unblock?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "pin_blocked",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-032",
+  "message": "I attempted to use my card while I was intoxicated, and I failed to input my PIN, and the machine kept my card. How soon can I have it back?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "pin_blocked",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-033",
+  "message": "If I make a top-up are there charges applied?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "top_up_by_bank_transfer_charge",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-034",
+  "message": "Is a SWIFT transfer okay?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "top_up_by_bank_transfer_charge",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-035",
+  "message": "can i do a transfer with swift",
+  "language": "en",
+  "expected_intent": null,
+  "category": "top_up_by_bank_transfer_charge",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-036",
+  "message": "Do I get charged if i am getting money?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "top_up_by_bank_transfer_charge",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-037",
+  "message": "Will it cost anything to top up a US card?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "top_up_by_card_charge",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-038",
+  "message": "Are there charges for topping up US cards?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "top_up_by_card_charge",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-039",
+  "message": "Will I be charged if I use European bank card for top up?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "top_up_by_card_charge",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-040",
+  "message": "What do you charge for top ups?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "top_up_by_card_charge",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-041",
+  "message": "What can I pay with? Does cash work?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "top_up_by_cash_or_cheque",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-042",
+  "message": "Do you accept checks?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "top_up_by_cash_or_cheque",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-043",
+  "message": "Can I top up by cheque?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "top_up_by_cash_or_cheque",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-044",
+  "message": "Is it possible to top up with cash? If so how do I do it?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "top_up_by_cash_or_cheque",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-045",
+  "message": "What is the limit to top-up?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "top_up_limits",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-046",
+  "message": "Do you have a limit to top ups?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "top_up_limits",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-047",
+  "message": "what is the most i can top up?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "top_up_limits",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-048",
+  "message": "Is there a maximum amount of top-ups?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "top_up_limits",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-049",
+  "message": "Who can top up my accounts?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "topping_up_by_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-050",
+  "message": "How do I top up my card using your app? I'm new to this.",
+  "language": "en",
+  "expected_intent": null,
+  "category": "topping_up_by_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-051",
+  "message": "Cannot access my top up.",
+  "language": "en",
+  "expected_intent": null,
+  "category": "topping_up_by_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-052",
+  "message": "How can I top up my account with a card?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "topping_up_by_card",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-053",
+  "message": "I checked my account today and it said I was out of money. How do I transfer money into my account?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "transfer_into_account",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-054",
+  "message": "I need to transfer money into my account, how do I go about doing this?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "transfer_into_account",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-055",
+  "message": "I don't understand the money transfer process.",
+  "language": "en",
+  "expected_intent": null,
+  "category": "transfer_into_account",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-056",
+  "message": "How do I go forth on transferring money into my account?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "transfer_into_account",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-057",
+  "message": "How long do transfers need to come through? I sent some money to a friend, she needs it urgently, but seems it's still not there yet after a couple hours.",
+  "language": "en",
+  "expected_intent": null,
+  "category": "transfer_not_received_by_recipient",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-058",
+  "message": "Where is the transaction I made to a friend?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "transfer_not_received_by_recipient",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-059",
+  "message": "The person I sent money to hasn't gotten it yet!",
+  "language": "en",
+  "expected_intent": null,
+  "category": "transfer_not_received_by_recipient",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-060",
+  "message": "I tried to send someone money but they haven't received it.",
+  "language": "en",
+  "expected_intent": null,
+  "category": "transfer_not_received_by_recipient",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-061",
+  "message": "The app won't let me log in as myself.",
+  "language": "en",
+  "expected_intent": null,
+  "category": "unable_to_verify_identity",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-062",
+  "message": "I can't verify my identity.",
+  "language": "en",
+  "expected_intent": null,
+  "category": "unable_to_verify_identity",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-063",
+  "message": "How long will it take for my ID to verify?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "unable_to_verify_identity",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-064",
+  "message": "Why isn't my ID being verified?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "unable_to_verify_identity",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-065",
+  "message": "How can I see my source of funds?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "verify_source_of_funds",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-066",
+  "message": "How can I view the source of my available funds?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "verify_source_of_funds",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-067",
+  "message": "How can I check the source of my fund?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "verify_source_of_funds",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-068",
+  "message": "Can I find the origination of my funds?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "verify_source_of_funds",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-069",
+  "message": "Where do I find the top-up verification code?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "verify_top_up",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-070",
+  "message": "how come the verification with the top up",
+  "language": "en",
+  "expected_intent": null,
+  "category": "verify_top_up",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-071",
+  "message": "Is it normal to have to verify my top-up or is something wrong?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "verify_top_up",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-072",
+  "message": "What is the necessity of verifying the top up?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "verify_top_up",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-073",
+  "message": "Why did I only get $20 when I tried to get $100",
+  "language": "en",
+  "expected_intent": null,
+  "category": "wrong_amount_of_cash_received",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-074",
+  "message": "I just got $20 when I tried to get $100",
+  "language": "en",
+  "expected_intent": null,
+  "category": "wrong_amount_of_cash_received",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-075",
+  "message": "The ATM gave me less cash than I requested",
+  "language": "en",
+  "expected_intent": null,
+  "category": "wrong_amount_of_cash_received",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-076",
+  "message": "I went to withdraw some cash earlier today, but seems the ATM gave me the wrong amount of cash! The amount showing up in the app is a lot more",
+  "language": "en",
+  "expected_intent": null,
+  "category": "wrong_amount_of_cash_received",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-077",
+  "message": "Can I make a withdraw if I am out of country from with out any fees at an ATM?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "wrong_exchange_rate_for_cash_withdrawal",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-078",
+  "message": "I expected a higher exchange rate when I withdrew money. Can you tell me current exchange rates?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "wrong_exchange_rate_for_cash_withdrawal",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-079",
+  "message": "Will there be additional costs of I make a withdrawal from a local ATM of British pounds? I need some cash to feel comfortable on the journey home",
+  "language": "en",
+  "expected_intent": null,
+  "category": "wrong_exchange_rate_for_cash_withdrawal",
+  "source": "banking77/test"
+ },
+ {
+  "id": "B77A-080",
+  "message": "Why was the exchange rate wrong when I got cash",
+  "language": "en",
+  "expected_intent": null,
+  "category": "wrong_exchange_rate_for_cash_withdrawal",
+  "source": "banking77/test"
+ },
+ {
+  "id": "CLA-001",
+  "message": "i was trying to buy food at publix but my card got declined",
+  "language": "en",
+  "expected_intent": null,
+  "category": "card_declined",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-002",
+  "message": "my credit card was turned down at target and i'd like to know why",
+  "language": "en",
+  "expected_intent": null,
+  "category": "card_declined",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-003",
+  "message": "how come my credit card isn't working",
+  "language": "en",
+  "expected_intent": null,
+  "category": "card_declined",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-004",
+  "message": "why didn't my card work",
+  "language": "en",
+  "expected_intent": null,
+  "category": "card_declined",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-005",
+  "message": "how does one set up direct deposit to my bank account",
+  "language": "en",
+  "expected_intent": null,
+  "category": "direct_deposit",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-006",
+  "message": "get my paycheck to direct deposit",
+  "language": "en",
+  "expected_intent": null,
+  "category": "direct_deposit",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-007",
+  "message": "setting up direct deposit",
+  "language": "en",
+  "expected_intent": null,
+  "category": "direct_deposit",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-008",
+  "message": "i need a direct deposit",
+  "language": "en",
+  "expected_intent": null,
+  "category": "direct_deposit",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-009",
+  "message": "please allow my account to freeze",
+  "language": "en",
+  "expected_intent": null,
+  "category": "freeze_account",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-010",
+  "message": "i need to put a stop on my bank account",
+  "language": "en",
+  "expected_intent": null,
+  "category": "freeze_account",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-011",
+  "message": "freeze my account for me",
+  "language": "en",
+  "expected_intent": null,
+  "category": "freeze_account",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-012",
+  "message": "put a freeze on my account",
+  "language": "en",
+  "expected_intent": null,
+  "category": "freeze_account",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-013",
+  "message": "i don't remember the pin number to my card",
+  "language": "en",
+  "expected_intent": null,
+  "category": "pin_change",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-014",
+  "message": "access my checking account and update my pin to 1234",
+  "language": "en",
+  "expected_intent": null,
+  "category": "pin_change",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-015",
+  "message": "i would like to change the name on my first bankcard account",
+  "language": "en",
+  "expected_intent": null,
+  "category": "pin_change",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-016",
+  "message": "correct my account pin to 1234 on my checking account",
+  "language": "en",
+  "expected_intent": null,
+  "category": "pin_change",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-017",
+  "message": "transfer $100 from my checking to saving account",
+  "language": "en",
+  "expected_intent": null,
+  "category": "transfer",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-018",
+  "message": "i would like to transfer $100 from my checking to saving account",
+  "language": "en",
+  "expected_intent": null,
+  "category": "transfer",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-019",
+  "message": "i would like to distribute some money between my accounts",
+  "language": "en",
+  "expected_intent": null,
+  "category": "transfer",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-020",
+  "message": "i would like help moving money from one account to another",
+  "language": "en",
+  "expected_intent": null,
+  "category": "transfer",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-021",
+  "message": "how much has the dow changed today",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-022",
+  "message": "did the stock market finish up for the day",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-023",
+  "message": "which stocks have lost the least today",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-024",
+  "message": "can you sell stocks for me",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-025",
+  "message": "how much has microsoft's stock changed over the last year",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-026",
+  "message": "can you give me the most current market news",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-027",
+  "message": "has ko gone up or down",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-028",
+  "message": "how is ford's stock doing",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-029",
+  "message": "which stocks gained the most today",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-030",
+  "message": "can i deposit a check",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-031",
+  "message": "when does the stock market update",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-032",
+  "message": "can you sign out of my bank login",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-033",
+  "message": "has the market been up or down since the beginning of this year",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-034",
+  "message": "can i set up mobile deposits",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-035",
+  "message": "sell three calls of of nvda",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-036",
+  "message": "can i use direct deposit for my tax refund",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-037",
+  "message": "show me the most popular nonfiction book currently on the market",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-038",
+  "message": "what is the best reviewed laptop available on the market",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-039",
+  "message": "list the contents of my safety deposit box at the bank",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-040",
+  "message": "can you tell me the purpose of a safe deposit box",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-041",
+  "message": "can you store a gun in a safe deposit box",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-042",
+  "message": "how do you get a safe deposit box",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-043",
+  "message": "what is bitcoin trading for currently",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "CLA-044",
+  "message": "how's the real estate market doing this week",
+  "language": "en",
+  "expected_intent": null,
+  "category": "oos_finance",
+  "source": "clinc150/test"
+ },
+ {
+  "id": "BXA-001",
+  "message": "how can i report problems with online payments",
+  "language": "en",
+  "expected_intent": null,
+  "category": "payment_issue",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BXA-002",
+  "message": "i do not know how i can inform of issues with online payment",
+  "language": "en",
+  "expected_intent": null,
+  "category": "payment_issue",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BXA-003",
+  "message": "I don't know how to inform of troubles with payment",
+  "language": "en",
+  "expected_intent": null,
+  "category": "payment_issue",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BXA-004",
+  "message": "can ya help me to inform of a problem with payment",
+  "language": "en",
+  "expected_intent": null,
+  "category": "payment_issue",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BXA-005",
+  "message": "can ya help me to solve a payment problem",
+  "language": "en",
+  "expected_intent": null,
+  "category": "payment_issue",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BXA-006",
+  "message": "notify of a problem with payment",
+  "language": "en",
+  "expected_intent": null,
+  "category": "payment_issue",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BXA-007",
+  "message": "I do not know how to inform of payment problems",
+  "language": "en",
+  "expected_intent": null,
+  "category": "payment_issue",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BXA-008",
+  "message": "could you help me solving troubles with online payment ?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "payment_issue",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BXA-009",
+  "message": "can you help me inform of fucking troubles with payments?",
+  "language": "en",
+  "expected_intent": null,
+  "category": "payment_issue",
+  "source": "bitext-customer-support-v11"
+ },
+ {
+  "id": "BXA-010",
+  "message": "i need help to noptify of problems with online payments",
+  "language": "en",
+  "expected_intent": null,
+  "category": "payment_issue",
+  "source": "bitext-customer-support-v11"
+ }
+]
